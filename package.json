@@ -1,7 +1,7 @@
 {
-  "name": "NetFlix",
+  "name": "Flight Booking",
   "version": "1.0.0",
-  "description": "NetFlix",
+  "description": "Flight Booking",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.config.js",
