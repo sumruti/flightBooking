@@ -1,9 +1,9 @@
 {
-  "name": "FlightBooking",
+  "name": "NetFlix",
   "version": "1.0.0",
-  "description": "FlightBooking",
+  "description": "NetFlix",
   "main": "index.js",
-   "scripts": {
+  "scripts": {
     "build": "webpack --config webpack.prod.config.js",
     "dev": "webpack-dev-server --hot --inline",
     "lint": "eslint src/**",
