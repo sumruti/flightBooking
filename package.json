@@ -1,0 +1,64 @@
+{
+  "name": "NetFlix",
+  "version": "1.0.0",
+  "description": "NetFlix",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.config.js",
+    "dev": "webpack-dev-server --hot --inline",
+    "lint": "eslint src/**",
+    "lint:watch": "esw -w src/**",
+    "review": "npm run lint && npm test",
+    "start": "npm run build && NODE_ENV=production node server.js",
+    "test": "jest src/**",
+    "test:watch": "jest src/** --watch",
+    "test:watchAll": "jest src/** --watchAll",
+    "test:coverage:report": "open coverage/lcov-report/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manojsinghnegiwd/idealreactseed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manojsinghnegiwd/idealreactseed/issues"
+  },
+  "homepage": "https://github.com/manojsinghnegiwd/idealreactseed#readme",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "dependencies": {
+    "css-loader": "^0.28.5",
+    "less-loader": "^4.0.5",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.18.2",
+    "video-react": "^0.13.1",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "less": "^2.7.2",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
