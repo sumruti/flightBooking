@@ -2,18 +2,23 @@ const webpack = require('webpack');
 const path = require('path');
 // React v.16 uses some newer JS functionality, so to ensure everything
 // works across all browsers, we're adding babel-polyfill here.
-require('babel-polyfill');
 
 module.exports = {
   entry: [
     './index'
   ],
-  module: {
-    loaders: [
-      { test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.s?css$/, loader: 'style-loader!css-loader!sass-loader' },
-    ]
-  },
+
+   module: {
+        loaders: [{
+            test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader'
+            },{
+                test: /\.less$/,
+                loaders: ["style-loader", "css-loader", "less-loader"]
+            }
+        ]
+    },
   resolve: {
     modules: [
       path.resolve('./'),
