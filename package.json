@@ -4,16 +4,8 @@
   "description": "NetFlix",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.prod.config.js",
-    "dev": "webpack-dev-server --hot --inline",
-    "lint": "eslint src/**",
-    "lint:watch": "esw -w src/**",
-    "review": "npm run lint && npm test",
-    "start": "npm run build && NODE_ENV=production node server.js",
-    "test": "jest src/**",
-    "test:watch": "jest src/** --watch",
-    "test:watchAll": "jest src/** --watchAll",
-    "test:coverage:report": "open coverage/lcov-report/index.html"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
   },
   "repository": {
     "type": "git",
