@@ -8,11 +8,16 @@ module.exports = {
   entry: [
     './index'
   ],
-  module: {
-    loaders: [
-      { test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.s?css$/, loader: 'style-loader!css-loader!sass-loader' },
-    ]
+   module: {
+        loaders: [{
+            test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader'
+            },{
+                test: /\.less$/,
+                loaders: ["style-loader", "css-loader", "less-loader"]
+            }
+        ]
   },
   resolve: {
     modules: [
@@ -22,13 +27,13 @@ module.exports = {
     extensions: ['.js','.scss'],
   },
   output: {
-    path: path.join(__dirname, '/dist'),
+    path: path.join(__dirname, '/Dist'),
     publicPath: '/',
     filename: 'bundle.js'
   },
   devtool: 'cheap-eval-source-map',
   devServer: {
-    contentBase: './dist',
+    contentBase: './Dist',
     hot: true
   },
   plugins: [
