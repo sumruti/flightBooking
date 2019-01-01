@@ -8,16 +8,11 @@ module.exports = {
   entry: [
     './index'
   ],
-   module: {
-        loaders: [{
-            test: /\.(js|jsx)$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader'
-            },{
-                test: /\.less$/,
-                loaders: ["style-loader", "css-loader", "less-loader"]
-            }
-        ]
+  module: {
+    loaders: [
+      { test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.s?css$/, loader: 'style-loader!css-loader!sass-loader' },
+    ]
   },
   resolve: {
     modules: [
