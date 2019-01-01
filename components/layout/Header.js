@@ -81,169 +81,169 @@ class NavBar extends Component {
                                                  <li><a href="hotel-offers.html">Hfot Offers</a></li>
                                                </ul>   */}  
                           </li>
-                          <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Tour<span><i className="fa fa-angle-down" /></span></a>
-                            <ul className="dropdown-menu">
-                              <li><a href="tour-homepage.html">Tour Homepage</a></li>
-                              <li><a href="tour-listing-left-sidebar.html">List View Left Sidebar</a></li>
-                              <li><a href="tour-listing-right-sidebar.html">List View Right Sidebar</a></li>
-                              <li><a href="tour-grid-left-sidebar.html">Grid View Left Sidebar</a></li>
-                              <li><a href="tour-grid-right-sidebar.html">Grid View Right Sidebar</a></li>
-                              <li><a href="tour-detail-left-sidebar.html">Detail Left Sidebar</a></li>
-                              <li><a href="tour-detail-right-sidebar.html">Detail Right Sidebar</a></li>
-                              <li><a href="tour-booking-left-sidebar.html">Booking Left Sidebar</a></li>
-                              <li><a href="tour-booking-right-sidebar.html">Booking Right Sidebar</a></li>
-                              <li><a href="tour-search-result.html">Search Result</a></li>
-                              <li><a href="tour-offers.html">Hot Offers</a></li>
-                            </ul>     
-                          </li>
-                          <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Cruise<span><i className="fa fa-angle-down" /></span></a>
-                            <ul className="dropdown-menu">
-                              <li><a href="cruise-homepage.html">Cruise Homepage</a></li>
-                              <li><a href="cruise-listing-left-sidebar.html">List View Left Sidebar</a></li>
-                              <li><a href="cruise-listing-right-sidebar.html">List View Right Sidebar</a></li>
-                              <li><a href="cruise-grid-left-sidebar.html">Grid View Left Sidebar</a></li>
-                              <li><a href="cruise-grid-right-sidebar.html">Grid View Right Sidebar</a></li>
-                              <li><a href="cruise-detail-left-sidebar.html">Detail Left Sidebar</a></li>
-                              <li><a href="cruise-detail-right-sidebar.html">Detail Right Sidebar</a></li>
-                              <li><a href="cruise-booking-left-sidebar.html">Booking Left Sidebar</a></li>
-                              <li><a href="cruise-booking-right-sidebar.html">Booking Right Sidebar</a></li>
-                              <li><a href="cruise-search-result.html">Search Result</a></li>
-                              <li><a href="cruise-offers.html">Hot Offers</a></li>
-                            </ul>     
-                          </li>
-                          <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Car<span><i className="fa fa-angle-down" /></span></a>
-                            <ul className="dropdown-menu">
-                              <li><a href="car-homepage.html">Car Homepage</a></li>
-                              <li><a href="car-listing-left-sidebar.html">List View Left Sidebar</a></li>
-                              <li><a href="car-listing-right-sidebar.html">List View Right Sidebar</a></li>
-                              <li><a href="car-grid-left-sidebar.html">Grid View Left Sidebar</a></li>
-                              <li><a href="car-grid-right-sidebar.html">Grid View Right Sidebar</a></li>
-                              <li><a href="car-detail-left-sidebar.html">Detail Left Sidebar</a></li>
-                              <li><a href="car-detail-right-sidebar.html">Detail Right Sidebar</a></li>
-                              <li><a href="car-booking-left-sidebar.html">Booking Left Sidebar</a></li>
-                              <li><a href="car-booking-right-sidebar.html">Booking Right Sidebar</a></li>
-                              <li><a href="car-search-result.html">Search Result</a></li>
-                              <li><a href="car-offers.html">Hot Offers</a></li>
-                            </ul>     
-                          </li>
-                          <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Features<span><i className="fa fa-angle-down" /></span></a>
-                            <ul className="dropdown-menu">
-                              <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Header</a>
-                                <ul className="dropdown-menu dropdown-sbm left-sbm">
-                                  <li><a href="feature-header-style-1.html">Header Style 1</a></li>
-                                  <li><a href="feature-header-style-2.html">Header Style 2</a></li>
-                                  <li><a href="feature-header-style-3.html">Header Style 3</a></li>
-                                  <li><a href="feature-header-style-4.html">Header Style 4</a></li>
-                                  <li><a href="feature-header-style-5.html">Header Style 5</a></li>
-                                  <li><a href="feature-header-style-6.html">Header Style 6</a></li>
-                                </ul>
-                              </li>
-                              <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Page Title</a>
-                                <ul className="dropdown-menu dropdown-sbm left-sbm">
-                                  <li><a href="feature-page-title-style-1.html">Page Title Style 1</a></li>
-                                  <li><a href="feature-page-title-style-2.html">Page Title Style 2</a></li>
-                                  <li><a href="feature-page-title-style-3.html">Page Title Style 3</a></li>
-                                  <li><a href="feature-page-title-style-4.html">Page Title Style 4</a></li>
-                                  <li><a href="feature-page-title-style-5.html">Page Title Style 5</a></li>
-                                  <li><a href="feature-page-title-style-6.html">Page Title Style 6</a></li>
-                                </ul>
-                              </li>
-                              <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Footer</a>
-                                <ul className="dropdown-menu dropdown-sbm left-sbm">
-                                  <li><a href="feature-footer-style-1.html">Footer Style 1</a></li>
-                                  <li><a href="feature-footer-style-2.html">Footer Style 2</a></li>
-                                  <li><a href="feature-footer-style-3.html">Footer Style 3</a></li>
-                                  <li><a href="feature-footer-style-4.html">Footer Style 4</a></li>
-                                  <li><a href="feature-footer-style-5.html">Footer Style 5</a></li>
-                                </ul>
-                              </li>
-                              <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Blog</a>
-                                <ul className="dropdown-menu dropdown-sbm left-sbm">
-                                  <li><a href="blog-listing-left-sidebar.html">Blog Listing Left Sidebar</a></li>
-                                  <li><a href="blog-listing-right-sidebar.html">Blog Listing Right Sidebar</a></li>
-                                  <li><a href="blog-detail-left-sidebar.html">Blog Detail Left Sidebar</a></li>
-                                  <li><a href="blog-detail-right-sidebar.html">Blog Detail Right Sidebar</a></li>
-                                </ul>
-                              </li>       
-                              <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Gallery</a>
-                                <ul className="dropdown-menu dropdown-sbm left-sbm">
-                                  <li><a href="gallery-masonry.html">Gallery Masonry</a></li>
-                                  <li><a href="gallery-2-columns.html">Gallery 2 Columns</a></li>
-                                  <li><a href="gallery-3-columns.html">Gallery 3 Columns</a></li>
-                                  <li><a href="gallery-4-columns.html">Gallery 4 Columns</a></li>
-                                </ul>
-                              </li>   
-                              <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Forms</a>
-                                <ul className="dropdown-menu dropdown-sbm left-sbm">
-                                  <li><a href="login-1.html">Login 1</a></li>
-                                  <li><a href="login-2.html">Login 2</a></li>
-                                  <li><a href="registration-1.html">Registration 1</a></li>
-                                  <li><a href="registration-2.html">Registration 2</a></li>
-                                  <li><a href="forgot-password-1.html">Forgot Password 1</a></li>
-                                  <li><a href="forgot-password-2.html">Forgot Password 2</a></li>
-                                </ul>
-                              </li>
-                            </ul>     
-                          </li>
-                          <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Pages<span><i className="fa fa-angle-down" /></span></a>
-                            <ul className="dropdown-menu mega-dropdown-menu row">
-                              <li>
-                                <div className="row">
-                                  <div className="col-md-3">
-                                    <ul className="list-unstyled">
-                                      <li className="dropdown-header">Standard <span>Pages</span></li>
-                                      <li><a href="about-us-1.html">About Us 1</a></li>
-                                      <li><a href="about-us-2.html">About Us 2</a></li>
-                                      <li><a href="services-1.html">Services 1</a></li>
-                                      <li><a href="services-2.html">Services 2</a></li>
-                                      <li><a href="team-1.html">Our Team 1</a></li>
-                                      <li><a href="team-2.html">Our Team 2</a></li>
-                                      <li><a href="contact-us-1.html">Contact Us 1</a></li>
-                                      <li><a href="contact-us-2.html">Contact Us 2</a></li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-3">
-                                    <ul className="list-unstyled">  
-                                      <li className="dropdown-header">User <span>Dashboard</span></li>
-                                      <li><a href="dashboard-1.html">Dashboard 1</a></li>
-                                      <li><a href="dashboard-2.html">Dashboard 2</a></li>
-                                      <li><a href="user-profile.html">User Profile</a></li>
-                                      <li><a href="booking.html">Booking</a></li>
-                                      <li><a href="wishlist.html">Wishlist</a></li>
-                                      <li><a href="cards.html">Cards</a></li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-3">
-                                    <ul className="list-unstyled">
-                                      <li className="dropdown-header">Special <span>Pages</span></li>
-                                      <li><a href="error-page-1.html">404 Page 1</a></li>
-                                      <li><a href="error-page-2.html">404 Page 2</a></li>
-                                      <li><a href="coming-soon-1.html">Coming Soon 1</a></li>
-                                      <li><a href="coming-soon-2.html">Coming Soon 2</a></li>  
-                                      <li><a href="faq-left-sidebar.html">FAQ Left Sidebar</a></li>
-                                      <li><a href="faq-right-sidebar.html">FAQ Right Sidebar</a></li> 
-                                      <li><a href="testimonials-1.html">Testimonials 1</a></li>
-                                      <li><a href="testimonials-2.html">Testimonials 2</a></li>
-                                    </ul>
-                                  </div>
-                                  <div className="col-md-3">
-                                    <ul className="list-unstyled">
-                                      <li className="dropdown-header">Extra <span>Pages</span></li>
-                                      <li><a href="before-you-fly.html">Before Fly</a></li>
-                                      <li><a href="travel-insurance.html">Travel Insurance</a></li>
-                                      <li><a href="travel-guide.html">Travel Guide</a></li>
-                                      <li><a href="holidays.html">Holidays</a></li>
-                                      <li><a href="thank-you.html">Thank You</a></li>
-                                      <li><a href="payment-success.html">Payment Success</a></li>
-                                      <li><a href="pricing-table-1.html">Pricing Table 1</a></li> 
-                                      <li><a href="pricing-table-2.html">Pricing Table 2</a></li>
-                                      <li><a href="popup-ad.html">Popup Ad</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </li>
-                            </ul>     
-                          </li>
+                         {/* <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Tour<span><i className="fa fa-angle-down" /></span></a>
+                                                     <ul className="dropdown-menu">
+                                                       <li><a href="tour-homepage.html">Tour Homepage</a></li>
+                                                       <li><a href="tour-listing-left-sidebar.html">List View Left Sidebar</a></li>
+                                                       <li><a href="tour-listing-right-sidebar.html">List View Right Sidebar</a></li>
+                                                       <li><a href="tour-grid-left-sidebar.html">Grid View Left Sidebar</a></li>
+                                                       <li><a href="tour-grid-right-sidebar.html">Grid View Right Sidebar</a></li>
+                                                       <li><a href="tour-detail-left-sidebar.html">Detail Left Sidebar</a></li>
+                                                       <li><a href="tour-detail-right-sidebar.html">Detail Right Sidebar</a></li>
+                                                       <li><a href="tour-booking-left-sidebar.html">Booking Left Sidebar</a></li>
+                                                       <li><a href="tour-booking-right-sidebar.html">Booking Right Sidebar</a></li>
+                                                       <li><a href="tour-search-result.html">Search Result</a></li>
+                                                       <li><a href="tour-offers.html">Hot Offers</a></li>
+                                                     </ul>     
+                                                   </li>
+                                                   <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Cruise<span><i className="fa fa-angle-down" /></span></a>
+                                                     <ul className="dropdown-menu">
+                                                       <li><a href="cruise-homepage.html">Cruise Homepage</a></li>
+                                                       <li><a href="cruise-listing-left-sidebar.html">List View Left Sidebar</a></li>
+                                                       <li><a href="cruise-listing-right-sidebar.html">List View Right Sidebar</a></li>
+                                                       <li><a href="cruise-grid-left-sidebar.html">Grid View Left Sidebar</a></li>
+                                                       <li><a href="cruise-grid-right-sidebar.html">Grid View Right Sidebar</a></li>
+                                                       <li><a href="cruise-detail-left-sidebar.html">Detail Left Sidebar</a></li>
+                                                       <li><a href="cruise-detail-right-sidebar.html">Detail Right Sidebar</a></li>
+                                                       <li><a href="cruise-booking-left-sidebar.html">Booking Left Sidebar</a></li>
+                                                       <li><a href="cruise-booking-right-sidebar.html">Booking Right Sidebar</a></li>
+                                                       <li><a href="cruise-search-result.html">Search Result</a></li>
+                                                       <li><a href="cruise-offers.html">Hot Offers</a></li>
+                                                     </ul>     
+                                                   </li>
+                                                   <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Car<span><i className="fa fa-angle-down" /></span></a>
+                                                     <ul className="dropdown-menu">
+                                                       <li><a href="car-homepage.html">Car Homepage</a></li>
+                                                       <li><a href="car-listing-left-sidebar.html">List View Left Sidebar</a></li>
+                                                       <li><a href="car-listing-right-sidebar.html">List View Right Sidebar</a></li>
+                                                       <li><a href="car-grid-left-sidebar.html">Grid View Left Sidebar</a></li>
+                                                       <li><a href="car-grid-right-sidebar.html">Grid View Right Sidebar</a></li>
+                                                       <li><a href="car-detail-left-sidebar.html">Detail Left Sidebar</a></li>
+                                                       <li><a href="car-detail-right-sidebar.html">Detail Right Sidebar</a></li>
+                                                       <li><a href="car-booking-left-sidebar.html">Booking Left Sidebar</a></li>
+                                                       <li><a href="car-booking-right-sidebar.html">Booking Right Sidebar</a></li>
+                                                       <li><a href="car-search-result.html">Search Result</a></li>
+                                                       <li><a href="car-offers.html">Hot Offers</a></li>
+                                                     </ul>     
+                                                   </li>
+                                                   <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Features<span><i className="fa fa-angle-down" /></span></a>
+                                                     <ul className="dropdown-menu">
+                                                       <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Header</a>
+                                                         <ul className="dropdown-menu dropdown-sbm left-sbm">
+                                                           <li><a href="feature-header-style-1.html">Header Style 1</a></li>
+                                                           <li><a href="feature-header-style-2.html">Header Style 2</a></li>
+                                                           <li><a href="feature-header-style-3.html">Header Style 3</a></li>
+                                                           <li><a href="feature-header-style-4.html">Header Style 4</a></li>
+                                                           <li><a href="feature-header-style-5.html">Header Style 5</a></li>
+                                                           <li><a href="feature-header-style-6.html">Header Style 6</a></li>
+                                                         </ul>
+                                                       </li>
+                                                       <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Page Title</a>
+                                                         <ul className="dropdown-menu dropdown-sbm left-sbm">
+                                                           <li><a href="feature-page-title-style-1.html">Page Title Style 1</a></li>
+                                                           <li><a href="feature-page-title-style-2.html">Page Title Style 2</a></li>
+                                                           <li><a href="feature-page-title-style-3.html">Page Title Style 3</a></li>
+                                                           <li><a href="feature-page-title-style-4.html">Page Title Style 4</a></li>
+                                                           <li><a href="feature-page-title-style-5.html">Page Title Style 5</a></li>
+                                                           <li><a href="feature-page-title-style-6.html">Page Title Style 6</a></li>
+                                                         </ul>
+                                                       </li>
+                                                       <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Footer</a>
+                                                         <ul className="dropdown-menu dropdown-sbm left-sbm">
+                                                           <li><a href="feature-footer-style-1.html">Footer Style 1</a></li>
+                                                           <li><a href="feature-footer-style-2.html">Footer Style 2</a></li>
+                                                           <li><a href="feature-footer-style-3.html">Footer Style 3</a></li>
+                                                           <li><a href="feature-footer-style-4.html">Footer Style 4</a></li>
+                                                           <li><a href="feature-footer-style-5.html">Footer Style 5</a></li>
+                                                         </ul>
+                                                       </li>
+                                                       <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                                         <ul className="dropdown-menu dropdown-sbm left-sbm">
+                                                           <li><a href="blog-listing-left-sidebar.html">Blog Listing Left Sidebar</a></li>
+                                                           <li><a href="blog-listing-right-sidebar.html">Blog Listing Right Sidebar</a></li>
+                                                           <li><a href="blog-detail-left-sidebar.html">Blog Detail Left Sidebar</a></li>
+                                                           <li><a href="blog-detail-right-sidebar.html">Blog Detail Right Sidebar</a></li>
+                                                         </ul>
+                                                       </li>       
+                                                       <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+                                                         <ul className="dropdown-menu dropdown-sbm left-sbm">
+                                                           <li><a href="gallery-masonry.html">Gallery Masonry</a></li>
+                                                           <li><a href="gallery-2-columns.html">Gallery 2 Columns</a></li>
+                                                           <li><a href="gallery-3-columns.html">Gallery 3 Columns</a></li>
+                                                           <li><a href="gallery-4-columns.html">Gallery 4 Columns</a></li>
+                                                         </ul>
+                                                       </li>   
+                                                       <li className="dropdown dropdown-submenu"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Forms</a>
+                                                         <ul className="dropdown-menu dropdown-sbm left-sbm">
+                                                           <li><a href="login-1.html">Login 1</a></li>
+                                                           <li><a href="login-2.html">Login 2</a></li>
+                                                           <li><a href="registration-1.html">Registration 1</a></li>
+                                                           <li><a href="registration-2.html">Registration 2</a></li>
+                                                           <li><a href="forgot-password-1.html">Forgot Password 1</a></li>
+                                                           <li><a href="forgot-password-2.html">Forgot Password 2</a></li>
+                                                         </ul>
+                                                       </li>
+                                                     </ul>     
+                                                   </li>
+                                                   <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Pages<span><i className="fa fa-angle-down" /></span></a>
+                                                     <ul className="dropdown-menu mega-dropdown-menu row">
+                                                       <li>
+                                                         <div className="row">
+                                                           <div className="col-md-3">
+                                                             <ul className="list-unstyled">
+                                                               <li className="dropdown-header">Standard <span>Pages</span></li>
+                                                               <li><a href="about-us-1.html">About Us 1</a></li>
+                                                               <li><a href="about-us-2.html">About Us 2</a></li>
+                                                               <li><a href="services-1.html">Services 1</a></li>
+                                                               <li><a href="services-2.html">Services 2</a></li>
+                                                               <li><a href="team-1.html">Our Team 1</a></li>
+                                                               <li><a href="team-2.html">Our Team 2</a></li>
+                                                               <li><a href="contact-us-1.html">Contact Us 1</a></li>
+                                                               <li><a href="contact-us-2.html">Contact Us 2</a></li>
+                                                             </ul>
+                                                           </div>
+                                                           <div className="col-md-3">
+                                                             <ul className="list-unstyled">  
+                                                               <li className="dropdown-header">User <span>Dashboard</span></li>
+                                                               <li><a href="dashboard-1.html">Dashboard 1</a></li>
+                                                               <li><a href="dashboard-2.html">Dashboard 2</a></li>
+                                                               <li><a href="user-profile.html">User Profile</a></li>
+                                                               <li><a href="booking.html">Booking</a></li>
+                                                               <li><a href="wishlist.html">Wishlist</a></li>
+                                                               <li><a href="cards.html">Cards</a></li>
+                                                             </ul>
+                                                           </div>
+                                                           <div className="col-md-3">
+                                                             <ul className="list-unstyled">
+                                                               <li className="dropdown-header">Special <span>Pages</span></li>
+                                                               <li><a href="error-page-1.html">404 Page 1</a></li>
+                                                               <li><a href="error-page-2.html">404 Page 2</a></li>
+                                                               <li><a href="coming-soon-1.html">Coming Soon 1</a></li>
+                                                               <li><a href="coming-soon-2.html">Coming Soon 2</a></li>  
+                                                               <li><a href="faq-left-sidebar.html">FAQ Left Sidebar</a></li>
+                                                               <li><a href="faq-right-sidebar.html">FAQ Right Sidebar</a></li> 
+                                                               <li><a href="testimonials-1.html">Testimonials 1</a></li>
+                                                               <li><a href="testimonials-2.html">Testimonials 2</a></li>
+                                                             </ul>
+                                                           </div>
+                                                           <div className="col-md-3">
+                                                             <ul className="list-unstyled">
+                                                               <li className="dropdown-header">Extra <span>Pages</span></li>
+                                                               <li><a href="before-you-fly.html">Before Fly</a></li>
+                                                               <li><a href="travel-insurance.html">Travel Insurance</a></li>
+                                                               <li><a href="travel-guide.html">Travel Guide</a></li>
+                                                               <li><a href="holidays.html">Holidays</a></li>
+                                                               <li><a href="thank-you.html">Thank You</a></li>
+                                                               <li><a href="payment-success.html">Payment Success</a></li>
+                                                               <li><a href="pricing-table-1.html">Pricing Table 1</a></li> 
+                                                               <li><a href="pricing-table-2.html">Pricing Table 2</a></li>
+                                                               <li><a href="popup-ad.html">Popup Ad</a></li>
+                                                             </ul>
+                                                           </div>
+                                                         </div>
+                                                       </li>
+                                                     </ul>     
+                                                   </li>*/}
                           <li><a href="javascript:void(0)" className="search-button"><span><i className="fa fa-search" /></span></a></li>
                         </ul>
                       </div>{/* end navbar collapse */}
