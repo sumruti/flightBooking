@@ -13,7 +13,8 @@
     "test": "jest src/**",
     "test:watch": "jest src/** --watch",
     "test:watchAll": "jest src/** --watchAll",
-    "test:coverage:report": "open coverage/lcov-report/index.html"
+    "test:coverage:report": "open coverage/lcov-report/index.html",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -26,12 +27,14 @@
   },
   "homepage": "https://github.com/manojsinghnegiwd/idealreactseed#readme",
   "babel": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
   },
   "dependencies": {
     "css-loader": "^0.28.5",
