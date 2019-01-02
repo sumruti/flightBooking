@@ -22,13 +22,13 @@ module.exports = {
     extensions: ['.js','.scss'],
   },
   output: {
-    path: path.join(__dirname, '/'),
+    path: path.join(__dirname, '/dist'),
     publicPath: '/',
     filename: 'bundle.js'
   },
   devtool: 'cheap-eval-source-map',
   devServer: {
-    contentBase: './',
+    contentBase: './dist',
     hot: true
   },
   plugins: [
