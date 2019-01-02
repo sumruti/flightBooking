@@ -39,7 +39,7 @@ class NavBar extends Component {
                       </div>{/* end navbar-header */}
                       <div className="collapse navbar-collapse" id="myNavbar1">
                         <ul className="nav navbar-nav navbar-right navbar-search-link">
-                          <li className="dropdown active"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Home<span>{/*<i className="fa fa-angle-down" />*/}</span></a>
+                          <li className="dropdown active"><Link to="/home" className="dropdown-toggle" >Home<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
                             {/*<ul className="dropdown-menu">
                                                    <li className="active"><a href="#">Main Homepage</a></li>
                                                    <li><a href="flight-homepage.html">Flight Homepage</a></li>
@@ -51,7 +51,7 @@ class NavBar extends Component {
                                                    <li><a href="travel-agency-homepage.html">Travel Agency Page</a></li>
                                                  </ul>*/  }   
                           </li>
-                          <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Flight<span>{/*<i className="fa fa-angle-down" />*/}</span></a>
+                          <li className="dropdown"><Link to="/flights" className="dropdown-toggle" >Flight<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
                             {/*<ul className="dropdown-menu">
                                                     <li><a href="flight-homepage.html">Flight Homepage</a></li>
                                                     <li><a href="flight-listing-left-sidebar.html">List View Left Sidebar</a></li>
@@ -66,7 +66,11 @@ class NavBar extends Component {
                                                     <li><a href="flight-offers.html">Hot Offers</a></li>
                                                   </ul> */}    
                           </li>
-                          <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Hotel<span>{/*<i className="fa fa-angle-down" />*/}</span></a>
+                          <li className="dropdown"><Link to="/hotels" className="dropdown-toggle" >Hotel<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
+                          <li className="dropdown"><Link to="#" className="dropdown-toggle" >Cruise<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
+                          <li className="dropdown"><Link to="#" className="dropdown-toggle" >Car<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
+                          <li className="dropdown"><Link to="/aboutus" className="dropdown-toggle" >About Us<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
+                          <li className="dropdown"><Link to="/contact" className="dropdown-toggle" >contact Us<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
                            {/* <ul className="dropdown-menu">
                                                  <li><a href="hotel-homepage.html">Hotel Homepage</a></li>
                                                  <li><a href="hotel-listing-left-sidebar.html">List View Left Sidebar</a></li>
@@ -80,7 +84,7 @@ class NavBar extends Component {
                                                  <li><a href="hotel-search-result.html">Search Result</a></li>
                                                  <li><a href="hotel-offers.html">Hfot Offers</a></li>
                                                </ul>   */}  
-                          </li>
+                         
                          {/* <li className="dropdown"><a href="#" className="dropdown-toggle" data-toggle="dropdown">Tour<span><i className="fa fa-angle-down" /></span></a>
                                                      <ul className="dropdown-menu">
                                                        <li><a href="tour-homepage.html">Tour Homepage</a></li>
