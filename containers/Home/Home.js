@@ -51,6 +51,7 @@ render () {
               <li className="item-2" style={{background: 'linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../images/homepage-slider-1.jpg) 50% 0%', backgroundSize: 'cover', height: '100%'}}>
                 <div className=" meta">         
                   <div className="container">
+                  
                     <h2>Discover</h2>
                     <h1>Australia</h1>
                     <a href="#" className="btn btn-default">View More</a>
