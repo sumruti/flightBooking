@@ -39,7 +39,7 @@ render () {
         <section className="flexslider-container" id="flexslider-container-1">
           <div className="flexslider slider" id="slider-1">
             <ul className="slides">
-              <li className="item-1" style={{background: 'linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Dist/images/homepage-slider-1.jpg) 50% 0%', backgroundSize: 'cover', height: '100%'}}>
+              <li className="item-1" style={{background: 'linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../images/homepage-slider-1.jpg) 50% 0%', backgroundSize: 'cover', height: '100%'}}>
                 <div className=" meta">         
                   <div className="container">
                     <h2>Discover</h2>
@@ -48,7 +48,7 @@ render () {
                   </div>{/* end container */}  
                 </div>{/* end meta */}
               </li>{/* end item-1 */}
-              <li className="item-2" style={{background: 'linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Dist/images/homepage-slider-1.jpg) 50% 0%', backgroundSize: 'cover', height: '100%'}}>
+              <li className="item-2" style={{background: 'linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../images/homepage-slider-1.jpg) 50% 0%', backgroundSize: 'cover', height: '100%'}}>
                 <div className=" meta">         
                   <div className="container">
                     <h2>Discover</h2>
@@ -365,7 +365,7 @@ render () {
                     <div className="main-block hotel-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../Dist/images/hotel-1.jpg" className="img-responsive" alt="hotel-img" />
+                          <img src="../../images/hotel-1.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
                           <ul className="list-unstyled list-inline offer-price-1">
@@ -395,7 +395,7 @@ render () {
                     <div className="main-block hotel-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../Dist/images/hotel-2.jpg" className="img-responsive" alt="hotel-img" />
+                          <img src="../../images/hotel-2.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
                           <ul className="list-unstyled list-inline offer-price-1">
@@ -425,7 +425,7 @@ render () {
                     <div className="main-block hotel-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../Dist/images/hotel-3.jpg" className="img-responsive" alt="hotel-img" />
+                          <img src="../../images/hotel-3.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
                           <ul className="list-unstyled list-inline offer-price-1">
@@ -455,7 +455,7 @@ render () {
                     <div className="main-block hotel-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../Dist/images/hotel-4.jpg" className="img-responsive" alt="hotel-img" />
+                          <img src="../../images/hotel-4.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
                           <ul className="list-unstyled list-inline offer-price-1">
@@ -538,7 +538,7 @@ render () {
                     <div className="main-block tour-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../Dist/images/tour-1.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../images/tour-1.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                       </div>{/* end offer-img */}
                       <div className="offer-price-2">
@@ -565,7 +565,7 @@ render () {
                     <div className="main-block tour-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../Dist/images/tour-2.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../images/tour-2.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                       </div>{/* end offer-img */}
                       <div className="offer-price-2">
@@ -592,7 +592,7 @@ render () {
                     <div className="main-block tour-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../Dist/images/tour-3.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../images/tour-3.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                       </div>{/* end offer-img */}
                       <div className="offer-price-2">
@@ -619,7 +619,7 @@ render () {
                     <div className="main-block tour-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../Dist/images/tour-4.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../images/tour-4.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                       </div>{/* end offer-img */}
                       <div className="offer-price-2">
@@ -666,7 +666,7 @@ render () {
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
                             <a href="#">
-                              <img src="../../Dist/images/cruise-1.jpg" className="img-responsive" alt="cruise-img" />
+                              <img src="../../images/cruise-1.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
                               </div>{/* end cruise-mask */}
@@ -698,7 +698,7 @@ render () {
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
                             <a href="#">
-                              <img src="../../Dist/images/cruise-2.jpg" className="img-responsive" alt="cruise-img" />
+                              <img src="../../images/cruise-2.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
                               </div>{/* end cruise-mask */}
@@ -730,7 +730,7 @@ render () {
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
                             <a href="#">
-                              <img src="../../Dist/images/cruise-3.jpg" className="img-responsive" alt="cruise-img" />
+                              <img src="../../images/cruise-3.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
                               </div>{/* end cruise-mask */}
@@ -762,7 +762,7 @@ render () {
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
                             <a href="#">
-                              <img src="../../Dist/images/cruise-4.jpg" className="img-responsive" alt="cruise-img" />
+                              <img src="../../images/cruise-4.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
                               </div>{/* end cruise-mask */}
@@ -822,7 +822,7 @@ render () {
                     <div className="main-block flight-block">
                       <a href="#">
                         <div className="flight-img">
-                          <img src="../../Dist/images/flight-1.jpg" className="img-responsive" alt="flight-img" />
+                          <img src="../../images/flight-1.jpg" className="img-responsive" alt="flight-img" />
                         </div>{/* end flight-img */}
                         <div className="flight-info">
                           <div className="flight-title">
@@ -852,7 +852,7 @@ render () {
                     <div className="main-block flight-block">
                       <a href="#">
                         <div className="flight-img">
-                          <img src="../../Dist/images/flight-2.jpg" className="img-responsive" alt="flight-img" />
+                          <img src="../../images/flight-2.jpg" className="img-responsive" alt="flight-img" />
                         </div>{/* end flight-img */}
                         <div className="flight-info">
                           <div className="flight-title">
@@ -882,7 +882,7 @@ render () {
                     <div className="main-block flight-block">
                       <a href="#">
                         <div className="flight-img">
-                          <img src="../../Dist/images/flight-3.jpg" className="img-responsive" alt="flight-img" />
+                          <img src="../../images/flight-3.jpg" className="img-responsive" alt="flight-img" />
                         </div>{/* end flight-img */}
                         <div className="flight-info">
                           <div className="flight-title">
@@ -912,7 +912,7 @@ render () {
                     <div className="main-block flight-block">
                       <a href="#">
                         <div className="flight-img">
-                          <img src="../../Dist/images/flight-4.jpg" className="img-responsive" alt="flight-img" />
+                          <img src="../../images/flight-4.jpg" className="img-responsive" alt="flight-img" />
                         </div>{/* end flight-img */}
                         <div className="flight-info">
                           <div className="flight-title">
@@ -942,7 +942,7 @@ render () {
                     <div className="main-block flight-block">
                       <a href="#">
                         <div className="flight-img">
-                          <img src="../../Dist/images/flight-5.jpg" className="img-responsive" alt="flight-img" />
+                          <img src="../../images/flight-5.jpg" className="img-responsive" alt="flight-img" />
                         </div>{/* end flight-img */}
                         <div className="flight-info">
                           <div className="flight-title">
@@ -972,7 +972,7 @@ render () {
                     <div className="main-block flight-block">
                       <a href="#">
                         <div className="flight-img">
-                          <img src="../../Dist/images/flight-6.jpg" className="img-responsive" alt="flight-img" />
+                          <img src="../../images/flight-6.jpg" className="img-responsive" alt="flight-img" />
                         </div>{/* end flight-img */}
                         <div className="flight-info">
                           <div className="flight-title">
@@ -1066,7 +1066,7 @@ render () {
                     <div className="main-block vehicle-block">
                       <div className="main-img vehicle-img">
                         <a href="#">
-                          <img src="../../Dist/images/vehicle-1.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../images/vehicle-1.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                         <div className="vehicle-time">
                           <p><span><i className="fa fa-clock-o" /></span>22/h</p>
@@ -1096,7 +1096,7 @@ render () {
                     <div className="main-block vehicle-block">
                       <div className="main-img vehicle-img">
                         <a href="#">
-                          <img src="../../Dist/images/vehicle-2.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../images/vehicle-2.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                         <div className="vehicle-time">
                           <p><span><i className="fa fa-clock-o" /></span>22/h</p>
@@ -1126,7 +1126,7 @@ render () {
                     <div className="main-block vehicle-block">
                       <div className="main-img vehicle-img">
                         <a href="#">
-                          <img src="../../Dist/images/vehicle-3.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../images/vehicle-3.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                         <div className="vehicle-time">
                           <p><span><i className="fa fa-clock-o" /></span>22/h</p>
@@ -1177,7 +1177,7 @@ render () {
                     <div className="main-block latest-block">
                       <div className="main-img latest-img">
                         <a href="#">
-                          <img src="../../Dist/images/latest-blog-1.jpg" className="img-responsive" alt="blog-img" />
+                          <img src="../../images/latest-blog-1.jpg" className="img-responsive" alt="blog-img" />
                         </a>
                       </div>{/* end latest-img */}
                       <div className="latest-info">
@@ -1200,7 +1200,7 @@ render () {
                     <div className="main-block latest-block">
                       <div className="main-img latest-img">
                         <a href="#">
-                          <img src="../../Dist/images/latest-blog-2.jpg" className="img-responsive" alt="blog-img" />
+                          <img src="../../images/latest-blog-2.jpg" className="img-responsive" alt="blog-img" />
                         </a>
                       </div>{/* end latest-img */}
                       <div className="latest-info">
@@ -1223,7 +1223,7 @@ render () {
                     <div className="main-block latest-block">
                       <div className="main-img latest-img">
                         <a href="#">
-                          <img src="../../Dist/images/latest-blog-3.jpg" className="img-responsive" alt="blog-img" />
+                          <img src="../../images/latest-blog-3.jpg" className="img-responsive" alt="blog-img" />
                         </a>
                       </div>{/* end latest-img */}
                       <div className="latest-info">
@@ -1340,7 +1340,7 @@ render () {
                   </div>{/* end columns */}
                   <div className="col-xs-12 col-sm-6">
                     <div className="popup-ad-img">
-                      <img src="../../Dist/images/about-content-2.png" className="img-responsive" /> 
+                      <img src="../../images/about-content-2.png" className="img-responsive" /> 
                     </div>{/* end popup-ad-img */}
                   </div>{/* end columns */}
                 </div>{/* end row */}
