@@ -1,7 +1,7 @@
 {
-  "name": "NetFlix",
+  "name": "FlightHotelBooking",
   "version": "1.0.0",
-  "description": "NetFlix",
+  "description": "Flight Hotel Booking app",
   "main": "index.js",
   "scripts": {
     "start": "node server.js", 
