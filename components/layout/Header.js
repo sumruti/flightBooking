@@ -299,6 +299,7 @@ class NavBar extends Component {
                           </div>x end sub-menu */}
                           <Link to="/hotels" className="list-group-item" ><span><i className="fa fa-building link-icon" /></span>Hotels<span>{/*<i className="fa fa-chevron-down arrow" />*/}</span></Link>
                           <Link to="/cruise" className="list-group-item" ><span><i className="fa fa-building link-icon" /></span>Cruise<span>{/*<i className="fa fa-chevron-down arrow" />*/}</span></Link>
+                          <Link to="/car" className="list-group-item" ><span><i className="fa fa-building link-icon" /></span>Car<span>{/*<i className="fa fa-chevron-down arrow" />*/}</span></Link>
                           <Link to="/aboutus" className="list-group-item" ><span><i className="fa fa-building link-icon" /></span>About us<span>{/*<i className="fa fa-chevron-down arrow" />*/}</span></Link>
                           <Link to="/contact" className="list-group-item"  ><span><i className="fa fa-building link-icon" /></span>Contact us<span>{/*<i className="fa fa-chevron-down arrow" />*/}</span></Link>
 
