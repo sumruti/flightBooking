@@ -15,10 +15,51 @@ class HotelHomepge extends Component {
 
  componentDidMount(){
     document.title = "Hotels"
-  }
-	
-render () {
 
+    $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+          $('body').removeClass('loading');
+      },
+      flexDirectionNav: false,
+      controlNav: false,
+    });
+
+    
+  $("#owl-hotel-offers").owlCarousel({
+    items : 3,
+    itemsCustom : false,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [991,2],
+    itemsTablet: [768,2],
+    itemsTabletSmall: [600,1],
+    itemsMobile : [479,1],
+    singleItem : false,
+    itemsScaleUp : false,
+  
+    //Autoplay
+    autoPlay : true,
+    stopOnHover : true,
+   
+    // Navigation
+    navigation : true,
+    navigationText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    rewindNav : true,
+    scrollPerPage : false,
+   
+    //Pagination
+    pagination : false,
+    paginationNumbers: false,
+   
+    // Responsive 
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,    
+  });
+  }
+  
+render () {
+  
 
     
 
@@ -40,12 +81,12 @@ render () {
            {/* end mySidenav */}
           
           <div className="flexslider slider" id="slider-3">
-	            <ul className="slides">
-	              <li className="item-1 back-size hotel-banners1" >
-	              </li>{/* end item-1 */}
-	              <li className="item-2 back-size hotel-banners2" >
-	              </li>{/* end item-2 */}
-	            </ul>
+              <ul className="slides">
+                <li className="item-1 back-size hotel-banners1" >
+                </li>{/* end item-1 */}
+                <li className="item-2 back-size hotel-banners2" >
+                </li>{/* end item-2 */}
+              </ul>
           </div>{/* end slider */}
           <div className="search-tabs" id="search-tabs-3">
             <div className="container">
@@ -78,7 +119,7 @@ render () {
                                   <i className="fa fa-map-marker" />
                                 </div>
                               </div>{/* end columns */}
-                            </div>{/* end row */}								
+                            </div>{/* end row */}               
                           </div>{/* end columns */}
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="row">
@@ -96,7 +137,7 @@ render () {
                                   <i className="fa fa-calendar" />
                                 </div>
                               </div>{/* end columns */}
-                            </div>{/* end row */}								
+                            </div>{/* end row */}               
                           </div>{/* end columns */}
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="form-group right-icon">
@@ -135,7 +176,7 @@ render () {
                                   <i className="fa fa-calendar" />
                                 </div>
                               </div>{/* end columns */}
-                            </div>{/* end row */}								
+                            </div>{/* end row */}               
                           </div>{/* end columns */}
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="row">
@@ -266,7 +307,7 @@ render () {
                                   <i className="fa fa-map-marker" />
                                 </div>
                               </div>{/* end columns */}
-                            </div>{/* end row */}								
+                            </div>{/* end row */}               
                           </div>{/* end columns */}
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="row">
@@ -284,7 +325,7 @@ render () {
                                   <i className="fa fa-calendar" />
                                 </div>
                               </div>{/* end columns */}
-                            </div>{/* end row */}								
+                            </div>{/* end row */}               
                           </div>{/* end columns */}
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="form-group right-icon">
@@ -305,7 +346,7 @@ render () {
                       </form>
                     </div>{/* end cruises */}
                     <div id="cars" className="tab-pane">
-                      <form>					
+                      <form>          
                         <div className="row">
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="row">
@@ -353,7 +394,7 @@ render () {
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2 search-btn">
                             <button className="btn btn-orange">Search</button>
                           </div>{/* end columns */}
-                        </div>{/* end row */}					
+                        </div>{/* end row */}         
                       </form>
                     </div>{/* end cars */}
                   </div>{/* end tab-content */}
@@ -635,7 +676,7 @@ render () {
         <section id="hotel-packages" className="section-padding"> 
           <div className="container">
             <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">         	
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">           
                 <div className="page-heading">
                   <h2>Our Packages</h2>
                   <hr className="heading-line" />
@@ -713,7 +754,7 @@ render () {
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <h2>Subscribe Our Newsletter</h2>
-                <p>Subscibe to receive our interesting updates</p>	
+                <p>Subscibe to receive our interesting updates</p>  
                 <form>
                   <div className="form-group">
                     <div className="input-group">

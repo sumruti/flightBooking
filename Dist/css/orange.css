@@ -1054,7 +1054,7 @@ p{
    ----------------------------------------------------- */
 
 #main-homepage #tour-offers{
-	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/tour-offers.jpg) 50% 0%;
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/14.jpg) 50% 80%;
 	background-size:cover;
 	background-attachment:fixed;
 }
@@ -2030,7 +2030,7 @@ p{
 /************ COVER ABOUT US ************/
 
 #cover-about-us{
-	background:url('../images/cover-about-us.jpg') 50% 45%;
+	background:url('../images/australia-banner.jpg') 50% 19%;
 	background-size:cover;
 	color:white;
 }

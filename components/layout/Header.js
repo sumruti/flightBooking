@@ -19,7 +19,17 @@ class NavBar extends Component {
     $(".overlay").css('transform','translateY(0%)');
    }
 
+
     render () {
+
+      $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+          $('body').removeClass('loading');
+      },
+      flexDirectionNav: false,
+      controlNav: false,
+    });
 
         return (
              <div>
@@ -35,11 +45,11 @@ class NavBar extends Component {
                         <div className="header-search hidden-lg">
                           <a href="javascript:void(0)" className="search-button" onClick={(e)=>this.ShowSearch(e)}><span><i className="fa fa-search" /></span></a>
                         </div>
-                        <a href="#" className="navbar-brand"><span><i className="fa fa-plane" />STAR</span>TRAVELS</a>
+                        <Link to="/" className="navbar-brand"><span><i className="fa fa-plane" />STAR</span>TRAVELS</Link>
                       </div>{/* end navbar-header */}
                       <div className="collapse navbar-collapse" id="myNavbar1">
                         <ul className="nav navbar-nav navbar-right navbar-search-link">
-                          <li className="dropdown active"><Link to="/home" className="dropdown-toggle" >Home<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
+                          <li className="dropdown active"><Link to="/" className="dropdown-toggle" >Home<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
                             {/*<ul className="dropdown-menu">
                                                    <li className="active"><a href="#">Main Homepage</a></li>
                                                    <li><a href="flight-homepage.html">Flight Homepage</a></li>
@@ -51,7 +61,6 @@ class NavBar extends Component {
                                                    <li><a href="travel-agency-homepage.html">Travel Agency Page</a></li>
                                                  </ul>*/  }   
                           </li>
-                          <li className="dropdown"><Link to="/flights" className="dropdown-toggle" >Flight<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
                             {/*<ul className="dropdown-menu">
                                                     <li><a href="flight-homepage.html">Flight Homepage</a></li>
                                                     <li><a href="flight-listing-left-sidebar.html">List View Left Sidebar</a></li>
@@ -65,10 +74,12 @@ class NavBar extends Component {
                                                     <li><a href="flight-search-result.html">Search Result</a></li>
                                                     <li><a href="flight-offers.html">Hot Offers</a></li>
                                                   </ul> */}    
-                          </li>
+                        
                           <li className="dropdown"><Link to="/hotels" className="dropdown-toggle" >Hotel<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
                           <li className="dropdown"><Link to="/cruise" className="dropdown-toggle" >Cruise<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
                           <li className="dropdown"><Link to="/car" className="dropdown-toggle" >Car<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
+                          <li className="dropdown"><Link to="/flights" className="dropdown-toggle" >Flight<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
+                             </li>
                           <li className="dropdown"><Link to="/aboutus" className="dropdown-toggle" >About Us<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
                           <li className="dropdown"><Link to="/contact" className="dropdown-toggle" >contact Us<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
                            {/* <ul className="dropdown-menu">
@@ -248,7 +259,7 @@ class NavBar extends Component {
                                                        </li>
                                                      </ul>     
                                                    </li>*/}
-                          <li><a href="javascript:void(0)" className="search-button"><span><i className="fa fa-search" /></span></a></li>
+                          <li><a href="javascript:void(0)" className="search-button" onClick={(e)=>this.ShowSearch(e)}><span><i className="fa fa-search" /></span></a></li>
                         </ul>
                       </div>{/* end navbar collapse */}
                     </div>{/* end container */}
@@ -287,7 +298,7 @@ class NavBar extends Component {
                             <a href="flight-offers.html" className="list-group-item">Hot Offers</a>
                           </div>x end sub-menu */}
                           <Link to="/hotels" className="list-group-item" ><span><i className="fa fa-building link-icon" /></span>Hotels<span>{/*<i className="fa fa-chevron-down arrow" />*/}</span></Link>
-                          <Link to="/hotels" className="list-group-item" ><span><i className="fa fa-building link-icon" /></span>Cruise<span>{/*<i className="fa fa-chevron-down arrow" />*/}</span></Link>
+                          <Link to="/cruise" className="list-group-item" ><span><i className="fa fa-building link-icon" /></span>Cruise<span>{/*<i className="fa fa-chevron-down arrow" />*/}</span></Link>
                           <Link to="/aboutus" className="list-group-item" ><span><i className="fa fa-building link-icon" /></span>About us<span>{/*<i className="fa fa-chevron-down arrow" />*/}</span></Link>
                           <Link to="/contact" className="list-group-item"  ><span><i className="fa fa-building link-icon" /></span>Contact us<span>{/*<i className="fa fa-chevron-down arrow" />*/}</span></Link>
 

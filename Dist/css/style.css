@@ -1180,14 +1180,12 @@ h1,h2,h3,h4,h5,h6,.main-title a, .flight-info h3 .flight-destination,.blog-post-
 .main-img{
 	position:relative;
 	overflow:hidden;
-    height: 301px;
 }
 
 .main-img img {
     width: 100%;
     transition: .4s;
-    height: 319px;
-    object-fit: cover;
+    height: 240px;
 }
 
 .main-info .main-title a{

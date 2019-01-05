@@ -16,6 +16,14 @@ class Cruise extends Component {
 
  componentDidMount(){
     document.title = "Cruise"
+     $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+          $('body').removeClass('loading');
+      },
+      flexDirectionNav: false,
+      controlNav: false,
+    });
   }
 	
 

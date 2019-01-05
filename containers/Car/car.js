@@ -14,6 +14,14 @@ class car extends Component {
 
 	componentDidMount(){
     document.title = "Car"
+     $('.flexslider').flexslider({
+      animation: "slide",
+      start: function(slider){
+          $('body').removeClass('loading');
+      },
+      flexDirectionNav: false,
+      controlNav: false,
+    });
   }
 render () {
 
