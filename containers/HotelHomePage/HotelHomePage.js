@@ -445,7 +445,8 @@ render () {
               </div>{/* end columns */}
             </div>{/* end row */}
           </div>{/* end container */}
-        </section>{/* end best-features */}
+        </section>
+        {/* end best-features */}
         {/*=============== HOTEL OFFERS ===============*/}
         <section id="hotel-offers" className="section-padding">
           <div className="container">
@@ -615,7 +616,7 @@ render () {
               </div>{/* end columns */}
               <div className="col-sm-12 col-md-12 col-lg-6 luxury-text luxury-room-text">
                 <h2>Luxurious Rooms</h2>
-                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri.</p>
+                <p>Well-appointed comfortable & spacious room with an area of 320 sq. ft. Luxury comes with a complete range of upscale amenities including, Wireless Internet access (Chargeable), Complimentary Mineral Water Bottle, Flat-screen TV, Cable connection, Direct Dialing, Sofa bed, Mini Bar, Tea/Coffee Maker, Express Laundry Service, In-room Safe, Bathrobe, Complimentary Newspaper, Parallel phone line in bathroom, Bath Tub, Bedside lamp, Full length Mirror, Hair Dryer, Safety Lockers, Shower Cubicle, Table lamp, Temp Control, Wooden flooring etc. Child Policy One child below the age of 6 years can stay in parents room without an extra bed on complimentary basis</p>
                 <a href="hotel-detail-right-sidebar.html" className="btn btn-black">From $99/Day</a>
                 <a href="hotel-detail-right-sidebar.html" className="btn btn-o-border">View Details</a>
               </div>{/* end columns */}
@@ -767,33 +768,8 @@ render () {
           </div>{/* end container */}
         </section>{/* end newsletter-1 */}
         {/*======================= FOOTER =======================*/}
-        <section id="footer" className="ftr-heading-w ftr-heading-mgn-2">
-          <div id="footer-top" className="banner-padding ftr-top-grey ftr-text-grey">
-            <div className="container">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 footer-widget ftr-about ftr-our-company">
-                  <h3 className="footer-heading">OUR COMPANY</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
-                  <ul className="social-links list-inline list-unstyled">
-                    <li><a href="#"><span><i className="fa fa-facebook" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-twitter" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-google-plus" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-pinterest-p" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-instagram" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-linkedin" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-youtube-play" /></span></a></li>
-                  </ul>
-                </div>{/* end columns */}
-                <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7 footer-widget ftr-map">
-                  <div className="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509729.487836256!2d-123.77686152799836!3d37.1864783963941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia!5e0!3m2!1sen!2s!4v1490695907554" allowFullScreen />
-                  </div>
-                </div>{/* end columns */}
-              </div>{/* end row */}
-            </div>{/* end container */}
-          </div>{/* end footer-top */}
-         <FooterBottom/>
-        </section>{/* end footer */}
+       <FooterBottom/>
+       {/* end footer */}
       </div>
     );
   }

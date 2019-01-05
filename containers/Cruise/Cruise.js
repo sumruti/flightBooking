@@ -341,48 +341,7 @@ render () {
         <Testimonials/>
        {/* end testimonials */} 
         {/*======================= FOOTER =======================*/}
-        <section id="footer" className="ftr-heading-w ftr-heading-mgn-2">
-          <div id="footer-top" className="banner-padding ftr-top-grey ftr-text-grey">
-            <div className="container">
-              <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 footer-widget ftr-about ftr-our-company">
-                  <h3 className="footer-heading">OUR COMPANY</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
-                  <ul className="social-links list-inline list-unstyled">
-                    <li><a href="#"><span><i className="fa fa-facebook" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-twitter" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-google-plus" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-pinterest-p" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-instagram" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-linkedin" /></span></a></li>
-                    <li><a href="#"><span><i className="fa fa-youtube-play" /></span></a></li>
-                  </ul>
-                </div>{/* end columns */}
-                <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-widget ftr-contact">
-                  <h3 className="footer-heading">Contact Us</h3>
-                  <ul className="list-unstyled">
-                    <li><span><i className="fa fa-map-marker" /></span>29 Land St, Lorem City, CA</li>
-                    <li><span><i className="fa fa-phone" /></span>+00 123 4567</li>
-                    <li><span><i className="fa fa-envelope" /></span>info@starhotel.com</li>
-                  </ul>
-                </div>{/* end columns */}
-                <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 footer-widget ftr-newsletter">
-                  <h3 className="footer-heading">Subscribe Newsletter</h3>
-                  <p>Subscribe to receive our interesting updates</p>
-                  <form>
-                    <div className="form-group">
-                      <div className="input-group">
-                        <input type="email" className="form-control input-lg" placeholder="Enter your email address" required />
-                        <span className="input-group-btn"><button className="btn btn-lg"><i className="fa fa-envelope" /></button></span>
-                      </div>
-                    </div>
-                  </form>
-                </div>{/* end columns */}
-              </div>{/* end row */}
-            </div>{/* end container */}
-          </div>{/* end footer-top */}
-           <FooterBottom/>
-        </section>{/* end footer */}
+        <FooterBottom/>
       </div>
  
  	)

@@ -58,7 +58,7 @@ class NavBar extends Component {
                         <div className="header-search hidden-lg">
                           <a href="javascript:void(0)" className="search-button" onClick={(e)=>this.ShowSearch(e)}><span><i className="fa fa-search" /></span></a>
                         </div>
-                        <Link to="/" className="navbar-brand"><span><i className="fa fa-plane" />STAR</span>TRAVELS</Link>
+                        <Link to="/" className="navbar-brand"><span className="logo"><img src="../../Dist/images/logo.jpg" /></span>UBRHUGTUR</Link>
                       </div>{/* end navbar-header */}
                       <div className="collapse navbar-collapse" id="myNavbar1">
                         <ul className="nav navbar-nav navbar-right navbar-search-link">

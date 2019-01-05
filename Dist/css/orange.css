@@ -1767,7 +1767,9 @@ p{
 /************* NEWSLETTER-1 *************/
 
 #newsletter-1{
-	background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('../images/newsletter.jpg') 50% 78%;
+	/*background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('../images/newsletter.jpg') 50% 78%;*/
+	background:linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)) 50% 78%;
+
 	background-size:140%;
 	color:white;
 }
@@ -2931,7 +2933,8 @@ p{
 /************ FULL PAGE FORMS ************/
 
 #full-page-form{
-	background:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),url('../images/cover-full-page-form.jpg') 50% 40%;
+	/*background:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)),url('../images/cover-full-page-form.jpg') 50% 40%;*/
+	background: linear-gradient(rgba(29, 29, 29, 0.1), rgba(37, 35, 35, 0.1)) 50% 40%;
 	background-size:cover;
 }
 
