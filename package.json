@@ -4,7 +4,7 @@
   "description": "Flight Hotel Booking app",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
+    "heroku-postbuild": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node app.js",
     "dev": "webpack-dev-server --hot --history-api-fallback --open"
   },
