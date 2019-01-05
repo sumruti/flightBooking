@@ -101,10 +101,10 @@ render () {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <h1 className="page-title">About Us 2</h1>
+                <h1 className="page-title">About Us </h1>
                 <ul className="breadcrumb">
                   <li><a href="#">Home</a></li>
-                  <li className="active">About Us 2</li>
+                  <li className="active">About Us </li>
                 </ul>
               </div>{/* end columns */}
             </div>{/* end row */}
