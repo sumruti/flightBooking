@@ -1,38 +1,39 @@
-const path = require('path')
-const webpack = require('webpack')
-
 module.exports = {
-  devtool: 'source-map',
   entry: [
-    'babel-polyfill',
-    'react-hot-loader/patch',
-    './index'
+    './index.js'
   ],
-
   output: {
-    path: path.join(__dirname, 'Dist'),
-    filename: 'bundle.js',
-    publicPath: '/Dist/'
+    path: __dirname,
+    publicPath: '/',
+    filename: 'bundle.js'
   },
-
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
-  ],
-
   module: {
     rules: [
-      { test: /\.js?$/,
-        loader: 'babel-loader',
-        include: path.join(__dirname, '')
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader"
+        }
       },
-      { test: /\.scss?$/,
-        loader: 'style-loader!css-loader!sass-loader',
-        include: path.join(__dirname, '', 'styles') },
-      { test: /\.png$/,
-        loader: 'file-loader' },
-      { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-        loader: 'file-loader'}
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader",
+            options: {
+              modules: true,
+              importLoaders: 1,
+              localIdentName: "[name]_[local]_[hash:base64]",
+              sourceMap: true,
+              minimize: true
+            }
+          }
+        ]
+      }
     ]
   }
-}
+};
