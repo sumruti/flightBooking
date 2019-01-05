@@ -8,6 +8,8 @@ import aboutus from './containers/aboutus/aboutus';
 import contact from './containers/contact/contact';
 import Login from './containers/Login/Login';
 import Register from './containers/Register/Register';
+import Cruise from './containers/Cruise/Cruise';
+import car from './containers/car/car';
 
 export default () => {
 	return (
@@ -20,6 +22,8 @@ export default () => {
 			  <Route path='/contact' component={contact}/>
 			  <Route path='/login' component={Login}/>
 			  <Route path='/register' component={Register}/>
+			  <Route path='/Cruise' component={Cruise}/>
+			  <Route path='/car' component={car}/>
 			</Switch>
 		</BrowserRouter>
 	)
