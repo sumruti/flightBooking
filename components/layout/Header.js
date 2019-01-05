@@ -31,6 +31,19 @@ class NavBar extends Component {
       controlNav: false,
     });
 
+     // $(".dropdown").on("click", function(){.
+        $('li.dropdown').click(function(){
+        alert('yes')
+        // $(".dropdown").removeClass("active");
+       // $(this).addClass("active");
+      });
+
+    $('#asd').on('click', function(){
+      alert('yj')
+         $(".dropdown").removeClass("active");
+         $(this).addClass("active");
+    });
+
         return (
              <div>
         
@@ -49,7 +62,7 @@ class NavBar extends Component {
                       </div>{/* end navbar-header */}
                       <div className="collapse navbar-collapse" id="myNavbar1">
                         <ul className="nav navbar-nav navbar-right navbar-search-link">
-                          <li className="dropdown active"><Link to="/" className="dropdown-toggle" >Home<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
+                          <li className="dropdown active" id="asd"><Link to="/" className="dropdown-toggle" >Home<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
                             {/*<ul className="dropdown-menu">
                                                    <li className="active"><a href="#">Main Homepage</a></li>
                                                    <li><a href="flight-homepage.html">Flight Homepage</a></li>
