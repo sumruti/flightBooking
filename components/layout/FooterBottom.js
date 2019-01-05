@@ -29,22 +29,22 @@ class FooterBottom extends Component {
                 <div className="col-xs-12 col-sm-6 col-md-2 col-lg-2 footer-widget ftr-links">
                   <h3 className="footer-heading">COMPANY</h3>
                   <ul className="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Flight</a></li>
-                    <li><a href="#">Hotel</a></li>
-                    <li><a href="#">Tours</a></li>
-                    <li><a href="#">Cruise</a></li>
-                    <li><a href="#">Cars</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/flights">Flight</Link></li>
+                    <li><Link to="/hotels">Hotel</Link></li>
+                    {/*<li><Link to="/aboutus">Tours</Link></li>*/}
+                    <li><Link to="/Cruise">Cruise</Link></li>
+                    <li><Link to="/car">Cars</Link></li>
                   </ul>
                 </div>{/* end columns */}
                 <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-widget ftr-links ftr-pad-left">
                   <h3 className="footer-heading">RESOURCES</h3>
                   <ul className="list-unstyled">
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
-                    <li><a href="#">Site Map</a></li>
+                   {/* <li><Link to="#">Blogs</a></li>*/}
+                    <li><Link to="/contact">Contact Us</Link></li>
+                    <li><Link to="/login">Login</Link></li>
+                    <li><Link to="/register">Register</Link></li>
+                    {/*<li><Link to="#">Site Map</Link></li>*/}
                   </ul>
                 </div>{/* end columns */}
                 <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 footer-widget ftr-about">
