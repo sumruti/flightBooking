@@ -18,7 +18,6 @@ class Home extends Component {
 render () {
 
 
-    
 
  return (
         <div>
@@ -39,7 +38,7 @@ render () {
         <section className="flexslider-container" id="flexslider-container-1">
           <div className="flexslider slider" id="slider-1">
             <ul className="slides">
-              <li className="item-1" style={{background: 'linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../images/homepage-slider-1.jpg) 50% 0%', backgroundSize: 'cover', height: '100%'}}>
+              <li className="item-1 fligt_show_img" >
                 <div className=" meta">         
                   <div className="container">
                     <h2>Discover</h2>
@@ -48,7 +47,7 @@ render () {
                   </div>{/* end container */}  
                 </div>{/* end meta */}
               </li>{/* end item-1 */}
-              <li className="item-2" style={{background: 'linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../images/homepage-slider-1.jpg) 50% 0%', backgroundSize: 'cover', height: '100%'}}>
+              <li className="item-2 cruise_show_img" >
                 <div className=" meta">         
                   <div className="container">
                     <h2>Discover</h2>
@@ -64,8 +63,8 @@ render () {
               <div className="row">
                 <div className="col-sm-12">
                   <ul className="nav nav-tabs center-tabs">
-                    <li className="active"><a href="#flights" data-toggle="tab"><span><i className="fa fa-plane" /></span><span className="st-text">Flights</span></a></li>
-                    <li><a href="#hotels" data-toggle="tab"><span><i className="fa fa-building" /></span><span className="st-text">Hotels</span></a></li>
+                 {/*   <li ><a href="#flights" data-toggle="tab"><span><i className="fa fa-plane" /></span><span className="st-text">Flights</span></a></li>*/}
+                    <li className="active"><a href="#hotels" data-toggle="tab"><span><i className="fa fa-building" /></span><span className="st-text">Hotels</span></a></li>
                     <li><a href="#tours" data-toggle="tab"><span><i className="fa fa-suitcase" /></span><span className="st-text">Tours</span></a></li>
                     <li><a href="#cruise" data-toggle="tab"><span><i className="fa fa-ship" /></span><span className="st-text">Cruise</span></a></li>
                     <li><a href="#cars" data-toggle="tab"><span><i className="fa fa-car" /></span><span className="st-text">Cars</span></a></li>
@@ -365,7 +364,7 @@ render () {
                     <div className="main-block hotel-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../images/hotel-1.jpg" className="img-responsive" alt="hotel-img" />
+                          <img src="../../Dist/images/123294690.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
                           <ul className="list-unstyled list-inline offer-price-1">
@@ -395,7 +394,7 @@ render () {
                     <div className="main-block hotel-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../images/hotel-2.jpg" className="img-responsive" alt="hotel-img" />
+                          <img src="../../Dist/images/3.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
                           <ul className="list-unstyled list-inline offer-price-1">
@@ -425,7 +424,7 @@ render () {
                     <div className="main-block hotel-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../images/hotel-3.jpg" className="img-responsive" alt="hotel-img" />
+                          <img src="../../Dist/images/swimming-pool.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
                           <ul className="list-unstyled list-inline offer-price-1">
@@ -455,9 +454,9 @@ render () {
                     <div className="main-block hotel-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../images/hotel-4.jpg" className="img-responsive" alt="hotel-img" />
+                          <img src="../../Dist/images/1.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
-                        <div className="main-mask">
+                        <div className="main-mask">1
                           <ul className="list-unstyled list-inline offer-price-1">
                             <li className="price">$568.00<span className="divider">|</span><span className="pkg">Avg/Night</span></li>
                             <li className="rating">
@@ -488,7 +487,8 @@ render () {
               </div>{/* end columns */}
             </div>{/* end row */}
           </div>{/* end container */}
-        </section>{/* end hotel-offers */}
+        </section>
+        {/* end hotel-offers */}
         {/*======================= BEST FEATURES =====================*/}
         <section id="best-features" className="banner-padding black-features">
           <div className="container">
@@ -538,7 +538,7 @@ render () {
                     <div className="main-block tour-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../images/tour-1.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../Dist/images/TOUR-PACKAGES.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                       </div>{/* end offer-img */}
                       <div className="offer-price-2">
@@ -565,7 +565,7 @@ render () {
                     <div className="main-block tour-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../images/tour-2.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../Dist/images/australia-new-zealand-tour-packages.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                       </div>{/* end offer-img */}
                       <div className="offer-price-2">
@@ -592,7 +592,7 @@ render () {
                     <div className="main-block tour-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../images/tour-3.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../Dist/images/romance-in-australia.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                       </div>{/* end offer-img */}
                       <div className="offer-price-2">
@@ -619,7 +619,7 @@ render () {
                     <div className="main-block tour-block">
                       <div className="main-img">
                         <a href="#">
-                          <img src="../../images/tour-4.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../Dist/images/special-offer-sri-lanka-tour.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                       </div>{/* end offer-img */}
                       <div className="offer-price-2">
@@ -666,7 +666,7 @@ render () {
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
                             <a href="#">
-                              <img src="../../images/cruise-1.jpg" className="img-responsive" alt="cruise-img" />
+                              <img src="../../Dist/images/The-Top-Five-Australia-and-Asian-Cruise-Holidays.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
                               </div>{/* end cruise-mask */}
@@ -698,7 +698,7 @@ render () {
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
                             <a href="#">
-                              <img src="../../images/cruise-2.jpg" className="img-responsive" alt="cruise-img" />
+                              <img src="../../Dist/images/thumb-1920-542931.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
                               </div>{/* end cruise-mask */}
@@ -730,7 +730,7 @@ render () {
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
                             <a href="#">
-                              <img src="../../images/cruise-3.jpg" className="img-responsive" alt="cruise-img" />
+                              <img src="../../Dist/images/Outdoor-deck-party-2-.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
                               </div>{/* end cruise-mask */}
@@ -762,7 +762,7 @@ render () {
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
                             <a href="#">
-                              <img src="../../images/cruise-4.jpg" className="img-responsive" alt="cruise-img" />
+                              <img src="../../Dist/images/bateaux.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
                               </div>{/* end cruise-mask */}
@@ -795,7 +795,8 @@ render () {
               </div>{/* end columns */}
             </div>{/* end row */}
           </div>{/* end container */}
-        </section>{/* end cruise-offers */}
+        </section>
+        {/* end cruise-offers */}
         {/*==================== VIDEO BANNER ===================*/}
         <section id="video-banner" className="banner-padding back-size"> 
           <div className="container">
@@ -809,203 +810,203 @@ render () {
           </div>{/* end container */}
         </section>{/* end video-banner */}
         {/*================= FLIGHT OFFERS =============*/}
-        <section id="flight-offers" className="section-padding">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-                <div className="page-heading">
-                  <h2>Flight Offers</h2>
-                  <hr className="heading-line" />
-                </div>{/* end page-heading */}
-                <div className="row">
-                  <div className="col-sm-6 col-md-4">
-                    <div className="main-block flight-block">
-                      <a href="#">
-                        <div className="flight-img">
-                          <img src="../../images/flight-1.jpg" className="img-responsive" alt="flight-img" />
-                        </div>{/* end flight-img */}
-                        <div className="flight-info">
-                          <div className="flight-title">
-                            <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
-                          </div>{/* end flight-title */}
-                          <div className=" flight-timing">
-                            <ul className="list-unstyled">
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
-                            </ul>
-                          </div>{/* end flight-timing */}
-                          <ul className="list-unstyled list-inline offer-price-1">
-                            <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
-                            <li className="rating">
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star lightgrey" /></span>
-                            </li>
-                          </ul>
-                        </div>{/* end flight-info */}
-                      </a>
-                    </div>{/* end flight-block */}
-                  </div>{/* end columns */}
-                  <div className="col-sm-6 col-md-4">
-                    <div className="main-block flight-block">
-                      <a href="#">
-                        <div className="flight-img">
-                          <img src="../../images/flight-2.jpg" className="img-responsive" alt="flight-img" />
-                        </div>{/* end flight-img */}
-                        <div className="flight-info">
-                          <div className="flight-title">
-                            <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
-                          </div>{/* end flight-title */}
-                          <div className=" flight-timing">
-                            <ul className="list-unstyled">
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
-                            </ul>
-                          </div>{/* end flight-timing */}
-                          <ul className="list-unstyled list-inline offer-price-1">
-                            <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
-                            <li className="rating">
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star lightgrey" /></span>
-                            </li>
-                          </ul>
-                        </div>{/* end flight-info */}
-                      </a>
-                    </div>{/* end flight-block */}
-                  </div>{/* end columns */}
-                  <div className="col-sm-6 col-md-4">
-                    <div className="main-block flight-block">
-                      <a href="#">
-                        <div className="flight-img">
-                          <img src="../../images/flight-3.jpg" className="img-responsive" alt="flight-img" />
-                        </div>{/* end flight-img */}
-                        <div className="flight-info">
-                          <div className="flight-title">
-                            <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
-                          </div>{/* end flight-title */}
-                          <div className=" flight-timing">
-                            <ul className="list-unstyled">
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
-                            </ul>
-                          </div>{/* end flight-timing */}
-                          <ul className="list-unstyled list-inline offer-price-1">
-                            <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
-                            <li className="rating">
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star lightgrey" /></span>
-                            </li>
-                          </ul>
-                        </div>{/* end flight-info */}
-                      </a>
-                    </div>{/* end flight-block */}
-                  </div>{/* end columns */}
-                  <div className="col-sm-6 col-md-4">
-                    <div className="main-block flight-block">
-                      <a href="#">
-                        <div className="flight-img">
-                          <img src="../../images/flight-4.jpg" className="img-responsive" alt="flight-img" />
-                        </div>{/* end flight-img */}
-                        <div className="flight-info">
-                          <div className="flight-title">
-                            <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
-                          </div>{/* end flight-title */}
-                          <div className=" flight-timing">
-                            <ul className="list-unstyled">
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
-                            </ul>
-                          </div>{/* end flight-timing */}
-                          <ul className="list-unstyled list-inline offer-price-1">
-                            <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
-                            <li className="rating">
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star lightgrey" /></span>
-                            </li>
-                          </ul>
-                        </div>{/* end flight-info */}
-                      </a>
-                    </div>{/* end flight-block */}
-                  </div>{/* end columns */}
-                  <div className="col-sm-6 col-md-4">
-                    <div className="main-block flight-block">
-                      <a href="#">
-                        <div className="flight-img">
-                          <img src="../../images/flight-5.jpg" className="img-responsive" alt="flight-img" />
-                        </div>{/* end flight-img */}
-                        <div className="flight-info">
-                          <div className="flight-title">
-                            <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
-                          </div>{/* end flight-title */}
-                          <div className=" flight-timing">
-                            <ul className="list-unstyled">
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
-                            </ul>
-                          </div>{/* end flight-timing */}
-                          <ul className="list-unstyled list-inline offer-price-1">
-                            <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
-                            <li className="rating">
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star lightgrey" /></span>
-                            </li>
-                          </ul>
-                        </div>{/* end flight-info */}
-                      </a>
-                    </div>{/* end flight-block */}
-                  </div>{/* end columns */}
-                  <div className="col-sm-6 col-md-4">
-                    <div className="main-block flight-block">
-                      <a href="#">
-                        <div className="flight-img">
-                          <img src="../../images/flight-6.jpg" className="img-responsive" alt="flight-img" />
-                        </div>{/* end flight-img */}
-                        <div className="flight-info">
-                          <div className="flight-title">
-                            <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
-                          </div>{/* end flight-title */}
-                          <div className=" flight-timing">
-                            <ul className="list-unstyled">
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
-                              <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
-                            </ul>
-                          </div>{/* end flight-timing */}
-                          <ul className="list-unstyled list-inline offer-price-1">
-                            <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
-                            <li className="rating">
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star lightgrey" /></span>
-                            </li>
-                          </ul>
-                        </div>{/* end flight-info */}
-                      </a>
-                    </div>{/* end flight-block */}
-                  </div>{/* end columns */}
-                </div>{/* end row */}
-                <div className="view-all text-center">
-                  <a href="#" className="btn btn-orange">View All</a>
-                </div>{/* end view-all */}
-              </div>{/* end columns */}
-            </div>{/* end row */}
-          </div>{/* end container */}
-        </section>{/* end flight-offers */}
+        {/*<section id="flight-offers" className="section-padding">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-sm-12">
+                        <div className="page-heading">
+                          <h2>Flight Offers</h2>
+                          <hr className="heading-line" />
+                        </div>{/* end page-heading *
+                        <div className="row">
+                          <div className="col-sm-6 col-md-4">
+                            <div className="main-block flight-block">
+                              <a href="#">
+                                <div className="flight-img">
+                                  <img src="../../Dist/images/flight-1.jpg" className="img-responsive" alt="flight-img" />
+                                </div>{/* end flight-img 
+                                <div className="flight-info">
+                                  <div className="flight-title">
+                                    <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
+                                  </div>{/* end flight-title 
+                                  <div className=" flight-timing">
+                                    <ul className="list-unstyled">
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
+                                    </ul>
+                                  </div>{/* end flight-timing 
+                                  <ul className="list-unstyled list-inline offer-price-1">
+                                    <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
+                                    <li className="rating">
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star lightgrey" /></span>
+                                    </li>
+                                  </ul>
+                                </div>{/* end flight-info 
+                              </a>
+                            </div> end flight-block *
+                          </div> end columns 
+                          <div className="col-sm-6 col-md-4">
+                            <div className="main-block flight-block">
+                              <a href="#">
+                                <div className="flight-img">
+                                  <img src="../../Dist/images/flight-2.jpg" className="img-responsive" alt="flight-img" />
+                                </div>{/* end flight-img 
+                                <div className="flight-info">
+                                  <div className="flight-title">
+                                    <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
+                                  </div>{/* end flight-title 
+                                  <div className=" flight-timing">
+                                    <ul className="list-unstyled">
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
+                                    </ul>
+                                  </div>{/* end flight-timing 
+                                  <ul className="list-unstyled list-inline offer-price-1">
+                                    <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
+                                    <li className="rating">
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star lightgrey" /></span>
+                                    </li>
+                                  </ul>
+                                </div>{/* end flight-info 
+                              </a>
+                            </div> end flight-block
+                          </div> end columns *
+                          <div className="col-sm-6 col-md-4">
+                            <div className="main-block flight-block">
+                              <a href="#">
+                                <div className="flight-img">
+                                  <img src="../../Dist/images/flight-3.jpg" className="img-responsive" alt="flight-img" />
+                                </div>{/* end flight-img *
+                                <div className="flight-info">
+                                  <div className="flight-title">
+                                    <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
+                                  </div>{/* end flight-title 
+                                  <div className=" flight-timing">
+                                    <ul className="list-unstyled">
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
+                                    </ul>
+                                  </div>{/* end flight-timing 
+                                  <ul className="list-unstyled list-inline offer-price-1">
+                                    <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
+                                    <li className="rating">
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star lightgrey" /></span>
+                                    </li>
+                                  </ul>
+                                </div>{/* end flight-info 
+                              </a>
+                            </div>{/* end flight-block 
+                          </div>{/* end columns 
+                          <div className="col-sm-6 col-md-4">
+                            <div className="main-block flight-block">
+                              <a href="#">
+                                <div className="flight-img">
+                                  <img src="../../Dist/images/flight-4.jpg" className="img-responsive" alt="flight-img" />
+                                </div>{/* end flight-img 
+                                <div className="flight-info">
+                                  <div className="flight-title">
+                                    <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
+                                  </div>{/* end flight-title 
+                                  <div className=" flight-timing">
+                                    <ul className="list-unstyled">
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
+                                    </ul>
+                                  </div>{/* end flight-timing 
+                                  <ul className="list-unstyled list-inline offer-price-1">
+                                    <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
+                                    <li className="rating">
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star lightgrey" /></span>
+                                    </li>
+                                  </ul>
+                                </div>{/* end flight-info 
+                              </a>
+                            </div>{/* end flight-block 
+                          </div>{/* end columns 
+                          <div className="col-sm-6 col-md-4">
+                            <div className="main-block flight-block">
+                              <a href="#">
+                                <div className="flight-img">
+                                  <img src="../../Dist/images/flight-5.jpg" className="img-responsive" alt="flight-img" />
+                                </div>{/* end flight-img *
+                                <div className="flight-info">
+                                  <div className="flight-title">
+                                    <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
+                                  </div>{/* end flight-title 
+                                  <div className=" flight-timing">
+                                    <ul className="list-unstyled">
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
+                                    </ul>
+                                  </div>{/* end flight-timing 
+                                  <ul className="list-unstyled list-inline offer-price-1">
+                                    <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
+                                    <li className="rating">
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star lightgrey" /></span>
+                                    </li>
+                                  </ul>
+                                </div>{/* end flight-info
+                              </a>
+                            </div>{/* end flight-block 
+                          </div>{/* end columns *
+                          <div className="col-sm-6 col-md-4">
+                            <div className="main-block flight-block">
+                              <a href="#">
+                                <div className="flight-img">
+                                  <img src="../../Dist/images/flight-6.jpg" className="img-responsive" alt="flight-img" />
+                                </div>{/* end flight-img 
+                                <div className="flight-info">
+                                  <div className="flight-title">
+                                    <h3><span className="flight-destination">Spain</span>|<span className="flight-type">OneWay Flight</span></h3>
+                                  </div>{/* end flight-title 
+                                  <div className=" flight-timing">
+                                    <ul className="list-unstyled">
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 02-2017 </span>(8:40 PM)</li>
+                                      <li><span><i className="fa fa-plane" /></span><span className="date">Aug, 03-2017 </span>(8:40 PM)</li>
+                                    </ul>
+                                  </div>{/* end flight-timing 
+                                  <ul className="list-unstyled list-inline offer-price-1">
+                                    <li className="price">$568.00<span className="pkg">Avg/Person</span></li>
+                                    <li className="rating">
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star orange" /></span>
+                                      <span><i className="fa fa-star lightgrey" /></span>
+                                    </li>
+                                  </ul>
+                                </div>{/* end flight-info
+                              </a>
+                            </div>{/* end flight-block 
+                          </div>{/* end columns 
+                        </div>{/* end row 
+                        <div className="view-all text-center">
+                          <a href="#" className="btn btn-orange">View All</a>
+                        </div>{/* end view-all 
+                      </div>{/* end columns 
+                    </div>{/* end row 
+                  </div>end container 
+                </section>*/}
         {/*==================== HIGHLIGHTS ====================*/}
         <section id="highlights" className="section-padding back-size"> 
           <div className="container">
@@ -1066,7 +1067,7 @@ render () {
                     <div className="main-block vehicle-block">
                       <div className="main-img vehicle-img">
                         <a href="#">
-                          <img src="../../images/vehicle-1.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../Dist/images/ZEA2018-95_1024x1024.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                         <div className="vehicle-time">
                           <p><span><i className="fa fa-clock-o" /></span>22/h</p>
@@ -1096,7 +1097,7 @@ render () {
                     <div className="main-block vehicle-block">
                       <div className="main-img vehicle-img">
                         <a href="#">
-                          <img src="../../images/vehicle-2.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../Dist/images/150714.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                         <div className="vehicle-time">
                           <p><span><i className="fa fa-clock-o" /></span>22/h</p>
@@ -1126,7 +1127,7 @@ render () {
                     <div className="main-block vehicle-block">
                       <div className="main-img vehicle-img">
                         <a href="#">
-                          <img src="../../images/vehicle-3.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../Dist/images/FIAT-OFFERS-FIATLOYALTY.png.img.1000.png" className="img-responsive" alt="tour-img" />
                         </a>
                         <div className="vehicle-time">
                           <p><span><i className="fa fa-clock-o" /></span>22/h</p>
@@ -1177,7 +1178,7 @@ render () {
                     <div className="main-block latest-block">
                       <div className="main-img latest-img">
                         <a href="#">
-                          <img src="../../images/latest-blog-1.jpg" className="img-responsive" alt="blog-img" />
+                          <img src="../../Dist/images/corporate_business_photography_01.jpg" className="img-responsive" alt="blog-img" />
                         </a>
                       </div>{/* end latest-img */}
                       <div className="latest-info">
@@ -1200,7 +1201,7 @@ render () {
                     <div className="main-block latest-block">
                       <div className="main-img latest-img">
                         <a href="#">
-                          <img src="../../images/latest-blog-2.jpg" className="img-responsive" alt="blog-img" />
+                          <img src="../../Dist/images/825082848-612x612.jpg" className="img-responsive" alt="blog-img" />
                         </a>
                       </div>{/* end latest-img */}
                       <div className="latest-info">
@@ -1223,7 +1224,7 @@ render () {
                     <div className="main-block latest-block">
                       <div className="main-img latest-img">
                         <a href="#">
-                          <img src="../../images/latest-blog-3.jpg" className="img-responsive" alt="blog-img" />
+                          <img src="../../Dist/images/98c80de7.jpg" className="img-responsive" alt="blog-img" />
                         </a>
                       </div>{/* end latest-img */}
                       <div className="latest-info">
@@ -1333,14 +1334,14 @@ render () {
                     <div className="popup-ad-text">
                       <h4>Get</h4>
                       <h2><span>20%</span> off</h2>
-                      <h4>on all flights booking</h4>
+                      <h4>on all hotels booking</h4>
                       <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri.</p>
                       <a href="#" className="btn btn-orange">Book Now</a>
                     </div>{/* end popup-ad-text */}
                   </div>{/* end columns */}
                   <div className="col-xs-12 col-sm-6">
                     <div className="popup-ad-img">
-                      <img src="../../images/about-content-2.png" className="img-responsive" /> 
+                      <img src="../../Dist/images/3111.jpg" className="img-responsive" /> 
                     </div>{/* end popup-ad-img */}
                   </div>{/* end columns */}
                 </div>{/* end row */}

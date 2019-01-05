@@ -33,7 +33,7 @@ render () {
                         <span><i className="fa fa-star orange" /></span>
                         <span><i className="fa fa-star lightgrey" /></span>
                       </div>{/* end rating */}
-                      <small>Jhon Smith</small>
+                      <small>Emma</small>
                     </div>{/* end item */}
                     <div className="item">
                       <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
@@ -44,7 +44,7 @@ render () {
                         <span><i className="fa fa-star orange" /></span>
                         <span><i className="fa fa-star lightgrey" /></span>
                       </div>{/* end rating */}
-                      <small>Jhon Smith</small>
+                      <small>Ethan</small>
                     </div>{/* end item */}
                     <div className="item">
                       <blockquote>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</blockquote>
@@ -55,15 +55,15 @@ render () {
                         <span><i className="fa fa-star orange" /></span>
                         <span><i className="fa fa-star lightgrey" /></span>
                       </div>{/* end rating */}
-                      <small>Jhon Smith</small>
+                      <small>Olivia</small>
                     </div>{/* end item */}
                   </div>{/* end carousel-inner */}
                   <ol className="carousel-indicators">
-                    <li data-target="#quote-carousel" data-slide-to={0} className="active"><img src="../../Dist/images/client-1.jpg" className="img-responsive" alt="client-img" />
+                    <li data-target="#quote-carousel" data-slide-to={0} className="active"><img src="../../Dist/images/stylish-selfie-photo-for-girls.jpg" className="img-responsive" alt="client-img" />
                     </li>
-                    <li data-target="#quote-carousel" data-slide-to={1}><img src="../../Dist/images/client-2.jpg" className="img-responsive" alt="client-img" />
+                    <li data-target="#quote-carousel" data-slide-to={1}><img src="../../Dist/images/outdoor-fashion-photography-08.jpg" className="img-responsive" alt="client-img" />
                     </li>
-                    <li data-target="#quote-carousel" data-slide-to={2}><img src="../../Dist/images/client-3.jpg" className="img-responsive" alt="client-img" />
+                    <li data-target="#quote-carousel" data-slide-to={2}><img src="../../Dist/images/W_960_noazeni-fornova-8311.jpg" className="img-responsive" alt="client-img" />
                     </li>
                   </ol>
                 </div>{/* end quote-carousel */}

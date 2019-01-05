@@ -10,42 +10,36 @@ import Testimonials from '../../components/layout/Testimonials';
 
 
 
+class car extends Component {
 
-class HotelHomepge extends Component {
-
- componentDidMount(){
-    document.title = "Hotels"
+	componentDidMount(){
+    document.title = "Car"
   }
-	
 render () {
 
+ return (
 
-    
 
-    return (
-      <div>
-        {/*====== LOADER =====*/}
-        {/*======== SEARCH-OVERLAY =========*/}       
-        <Search/>
-        {/* end overlay */}
+    <div>
+     {/*======== SEARCH-OVERLAY =========*/}       
+      <Search/>
+    {/* end overlay */}
         {/*============= TOP-BAR ===========*/}
         <TopBar/>
-        {/* end top-bar */}
         {/*========================= FLEX SLIDER =====================*/}
+        {/* end flexslider-container */}
+        {/*================= CAR OFFERS =============*/}
         <section className="flexslider-container" id="flexslider-container-3">
-          <div className="header-absolute">
-            <Header/>
-           {/* end navbar */}
-          </div>{/* end header-absolute */}
-           {/* end mySidenav */}
-          
+          <Header/>
+        {/* end mySidenav */}
+         {/* end sidenav-content */}
           <div className="flexslider slider" id="slider-3">
-	            <ul className="slides">
-	              <li className="item-1 back-size hotel-banners1" >
-	              </li>{/* end item-1 */}
-	              <li className="item-2 back-size hotel-banners2" >
-	              </li>{/* end item-2 */}
-	            </ul>
+            <ul className="slides">
+              <li className="item-1 back-size" style={{background: 'linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Dist/images/2013-Mercedes-Benz-C-Class.jpg) 50% 65%', backgroundSize: 'cover', height: '100%'}}>
+              </li>{/* end item-1 */}
+              <li className="item-2 back-size" style={{background: 'linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Dist/images/2018-bmw-m4-cs-71-1920x1080.jpg) 50% 65%', backgroundSize: 'cover', height: '100%'}}>
+              </li>{/* end item-2 */}
+            </ul>
           </div>{/* end slider */}
           <div className="search-tabs" id="search-tabs-3">
             <div className="container">
@@ -53,10 +47,10 @@ render () {
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-pd-r">
                   <ul className="nav nav-tabs">
                     <li><a href="#flights" data-toggle="tab"><span><i className="fa fa-plane" /></span><span className="st-text">Flights</span></a></li>
-                    <li className="active"><a href="#hotels" data-toggle="tab"><span><i className="fa fa-building" /></span><span className="st-text">Hotels</span></a></li>
+                    <li><a href="#hotels" data-toggle="tab"><span><i className="fa fa-building" /></span><span className="st-text">Hotels</span></a></li>
                     <li><a href="#tours" data-toggle="tab"><span><i className="fa fa-suitcase" /></span><span className="st-text">Tours</span></a></li>
                     <li><a href="#cruise" data-toggle="tab"><span><i className="fa fa-ship" /></span><span className="st-text">Cruise</span></a></li>
-                    <li><a href="#cars" data-toggle="tab"><span><i className="fa fa-car" /></span><span className="st-text">Cars</span></a></li>
+                    <li className="active"><a href="#cars" data-toggle="tab"><span><i className="fa fa-car" /></span><span className="st-text">Cars</span></a></li>
                   </ul>
                   <div className="tab-content">
                     <div id="flights" className="tab-pane">
@@ -116,7 +110,7 @@ render () {
                         </div>{/* end row */}
                       </form>
                     </div>{/* end flights */}
-                    <div id="hotels" className="tab-pane in active">
+                    <div id="hotels" className="tab-pane">
                       <form>
                         <div className="row">
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -304,7 +298,7 @@ render () {
                         </div>{/* end row */}
                       </form>
                     </div>{/* end cruises */}
-                    <div id="cars" className="tab-pane">
+                    <div id="cars" className="tab-pane in active">
                       <form>					
                         <div className="row">
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -358,21 +352,88 @@ render () {
                     </div>{/* end cars */}
                   </div>{/* end tab-content */}
                 </div>{/* end columns */}
-                <div className="hidden-xs hidden-sm col-md-6 no-pd-l">
-                  <div className="welcome-message">
-                    <h2>Find Your Perfect Plan</h2>
-                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper, imeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
-                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
-                    <a href="#" className="btn btn-w-border">Explore More</a>
-                  </div>
-                </div>
               </div>{/* end row */}
             </div>{/* end container */}
           </div>{/* end search-tabs */}
         </section>
         {/* end flexslider-container */}
-        {/*======================= BEST FEATURES ======================*/}
-        <section id="best-features" className="banner-padding orange-features">
+        {/*================= CAR OFFERS =============*/}
+        <section id="car-offers" className="section-padding"> 
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">         	
+                <div className="page-heading">
+                  <h2>Car Offers</h2>
+                  <hr className="heading-line" />
+                </div>{/* end page-heading */}
+                <div className="owl-carousel owl-theme owl-custom-arrow" id="owl-car-offers">
+                  <div className="item">
+                    <div className="main-block car-offer-block">
+                      <div className="main-img car-offer-img">
+                        <a href="car-detail-right-sidebar.html">
+                          <img src="../../Dist/images/2017-Audi-Q5-2L-TFSI-S-Line-Black-SUV-grey-press-image-1200x800-(1).webp" className="img-responsive" alt="car-img" />
+                        </a>
+                      </div>{/* end car-offer-img */}
+                      <div className="car-offer-info">
+                        <ul className="list-unstyled">
+                          <li><a href="car-detail-right-sidebar.html"><h4>Audi</h4></a><span className="car-offer-price">$68.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
+                        </ul>
+                      </div>{/* end car-offer-info */}
+                    </div>{/* end car-offer-block */}
+                  </div>{/* end item */}
+                  <div className="item">
+                    <div className="main-block car-offer-block">
+                      <div className="main-img car-offer-img">
+                        <a href="car-detail-right-sidebar.html">
+                          <img src="../../Dist/images/FIAT-OFFERS-FIATLOYALTY.png.img.1000.png" className="img-responsive" alt="car-img" />
+                        </a>
+                      </div>{/* end car-offer-img */}
+                      <div className="car-offer-info">
+                        <ul className="list-unstyled">
+                          <li><a href="car-detail-right-sidebar.html"><h4>Range Rover</h4></a><span className="car-offer-price">$95.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
+                        </ul>
+                      </div>{/* end car-offer-info */}
+                    </div>{/* end car-offer-block */}
+                  </div>{/* end item */}
+                  <div className="item">
+                    <div className="main-block car-offer-block">
+                      <div className="main-img car-offer-img">
+                        <a href="car-detail-right-sidebar.html">
+
+                          <img src="../../Dist/images/ZEA2018-95_1024x1024.jpg" className="img-responsive" alt="car-img" />
+                        </a>
+                      </div>{/* end car-offer-img */}
+                      <div className="car-offer-info">
+                        <ul className="list-unstyled">
+                          <li><a href="car-detail-right-sidebar.html"><h4>Mercedese</h4></a><span className="car-offer-price">$78.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
+                        </ul>
+                      </div>{/* end car-offer-info */}
+                    </div>{/* end car-offer-block */}
+                  </div>{/* end item */}
+                  <div className="item">
+                    <div className="main-block car-offer-block">
+                      <div className="main-img car-offer-img">
+                        <a href="car-detail-right-sidebar.html">
+                          <img src="../../Dist/images/images1111.jpg" className="img-responsive" alt="car-img" />
+                        </a>
+                      </div>{/* end car-offer-img */}
+                      <div className="car-offer-info">
+                        <ul className="list-unstyled">
+                          <li><a href="car-detail-right-sidebar.html"><h4>Audi</h4></a><span className="car-offer-price">$68.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
+                        </ul>
+                      </div>{/* end car-offer-info */}
+                    </div>{/* end car-offer-block */}
+                  </div>{/* end item */}
+                </div>{/* end owl-car-offers */}
+                <div className="view-all text-center">
+                  <a href="car-grid-right-sidebar.html" className="btn btn-orange">View All</a>
+                </div>{/* end view-all */}
+              </div>{/* end columns */}
+            </div>{/* end row */}
+          </div>{/* end container */}
+        </section>{/* end car-offers */}
+        {/*========================= BEST FEATURES =======================*/}
+        <section id="best-features" className="banner-padding lightgrey-features">
           <div className="container">
             <div className="row">
               <div className="col-sm-6 col-md-3">
@@ -406,237 +467,30 @@ render () {
             </div>{/* end row */}
           </div>{/* end container */}
         </section>{/* end best-features */}
-        {/*=============== HOTEL OFFERS ===============*/}
-        <section id="hotel-offers" className="section-padding">
+        {/*================ LUXURY CAR ==============*/}
+        <section id="luxury-car" className="section-padding"> 
           <div className="container">
             <div className="row">
-              <div className="col-sm-12">
-                <div className="page-heading">
-                  <h2>Hotels Offers</h2>
-                  <hr className="heading-line" />
-                </div>{/* end page-heading */}
-                <div className="owl-carousel owl-theme owl-custom-arrow" id="owl-hotel-offers">
-                  <div className="item">
-                    <div className="main-block hotel-block">
-                      <div className="main-img">
-                        <a href="#">
-                          <img src="../../Dist/images/123294690.jpg" className="img-responsive" alt="hotel-img" />
-                        </a>
-                        <div className="main-mask">
-                          <ul className="list-unstyled list-inline offer-price-1">
-                            <li className="price">$568.00<span className="divider">|</span><span className="pkg">Avg/Night</span></li>
-                            <li className="rating">
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star lightgrey" /></span>
-                            </li>
-                          </ul>
-                        </div>{/* end main-mask */}
-                      </div>{/* end offer-img */}
-                      <div className="main-info hotel-info">
-                        <div className="arrow">
-                          <a href="#"><span><i className="fa fa-angle-right" /></span></a>
-                        </div>{/* end arrow */}
-                        <div className="main-title hotel-title">
-                          <a href="#">Herta Berlin Hotel</a>
-                          <p>From: Scotland</p>
-                        </div>{/* end hotel-title */}
-                      </div>{/* end hotel-info */}
-                    </div>{/* end hotel-block */}
-                  </div>{/* end item */}
-                  <div className="item">
-                    <div className="main-block hotel-block">
-                      <div className="main-img">
-                        <a href="#">
-                          <img src="../../Dist/images/3.jpg" className="img-responsive" alt="hotel-img" />
-                        </a>
-                        <div className="main-mask">
-                          <ul className="list-unstyled list-inline offer-price-1">
-                            <li className="price">$568.00<span className="divider">|</span><span className="pkg">Avg/Night</span></li>
-                            <li className="rating">
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star lightgrey" /></span>
-                            </li>
-                          </ul>
-                        </div>{/* end main-mask */}
-                      </div>{/* end offer-img */}
-                      <div className="main-info hotel-info">
-                        <div className="arrow">
-                          <a href="#"><span><i className="fa fa-angle-right" /></span></a>
-                        </div>{/* end arrow */}
-                        <div className="main-title hotel-title">
-                          <a href="#">Roosevelt Hotel</a>
-                          <p>From: Germany</p>
-                        </div>{/* end hotel-title */}
-                      </div>{/* end hotel-info */}
-                    </div>{/* end hotel-block */}
-                  </div>{/* end item */}
-                  <div className="item">
-                    <div className="main-block hotel-block">
-                      <div className="main-img">
-                        <a href="#">
-                          <img src="../../Dist/images/swimming-pool.jpg" className="img-responsive" alt="hotel-img" />
-                        </a>
-                        <div className="main-mask">
-                          <ul className="list-unstyled list-inline offer-price-1">
-                            <li className="price">$568.00<span className="divider">|</span><span className="pkg">Avg/Night</span></li>
-                            <li className="rating">
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star lightgrey" /></span>
-                            </li>
-                          </ul>
-                        </div>{/* end main-mask */}
-                      </div>{/* end offer-img */}
-                      <div className="main-info hotel-info">
-                        <div className="arrow">
-                          <a href="#"><span><i className="fa fa-angle-right" /></span></a>
-                        </div>{/* end arrow */}
-                        <div className="main-title hotel-title">
-                          <a href="#">Hotel Fort De</a>
-                          <p>From: Austria</p>
-                        </div>{/* end hotel-title */}
-                      </div>{/* end hotel-info */}
-                    </div>{/* end hotel-block */}
-                  </div>{/* end item */}
-                  <div className="item">
-                    <div className="main-block hotel-block">
-                      <div className="main-img">
-                        <a href="#">
-                          <img src="../../Dist/images/1.jpg" className="img-responsive" alt="hotel-img" />
-                        </a>
-                        <div className="main-mask">1
-                          <ul className="list-unstyled list-inline offer-price-1">
-                            <li className="price">$568.00<span className="divider">|</span><span className="pkg">Avg/Night</span></li>
-                            <li className="rating">
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star orange" /></span>
-                              <span><i className="fa fa-star lightgrey" /></span>
-                            </li>
-                          </ul>
-                        </div>{/* end main-mask */}
-                      </div>{/* end offer-img */}
-                      <div className="main-info hotel-info">
-                        <div className="arrow">
-                          <a href="#"><span><i className="fa fa-angle-right" /></span></a>
-                        </div>{/* end arrow */}
-                        <div className="main-title hotel-title">
-                          <a href="#">Roosevelt Hotel</a>
-                          <p>From: Germany</p>
-                        </div>{/* end hotel-title */}
-                      </div>{/* end hotel-info */}
-                    </div>{/* end hotel-block */}
-                  </div>{/* end item */}
-                </div>{/* end owl-hotel-offers */}
-                <div className="view-all text-center">
-                  <a href="#" className="btn btn-orange">View All</a>
-                </div>{/* end view-all */}
-              </div>{/* end columns */}
-            </div>{/* end row */}
-          </div>{/* end container */}
-        </section>
-        {/* end hotel-offers */}
-        {/*=============== LUXURY ROOMS ===============*/}
-        <section id="luxury-rooms" className="section-padding">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12 col-md-12 col-lg-6 luxury-img luxury-room-imgs">
-                <div className="row">
-                  <div className="col-xs-6 col-sm-6 luxury-room-block">
-                    <a href="../../Dist/images/luxury-room-1.jpg" title="image-7" className="with-caption gallery image-link">
-                      <img className="img-responsive" src="../../Dist/images/midcentury-living-room_0.jpg" alt="luxury-room-img" />
-                    </a>
-                  </div>
-                  <div className="col-xs-6 col-sm-6 luxury-room-block">
-                    <a href="../../Dist/images/luxury-room-2.jpg" title="image-7" className="with-caption gallery image-link">
-                      <img className="img-responsive" src="../../Dist/images/c7beb487b2b54736cfcb842d02463724.jpg" alt="luxury-room-img" />
-                    </a>
-                  </div>
-                  <div className="col-xs-6 col-sm-6 luxury-room-block">
-                    <a href="../../Dist/images/luxury-room-3.jpg" title="image-7" className="with-caption gallery image-link">
-                      <img className="img-responsive" src="../../Dist/images/171102-lavish-hotel-ro.jpg" alt="luxury-room-img" />
-                    </a>
-                  </div>
-                  <div className="col-xs-6 col-sm-6 luxury-room-block">
-                    <a href="../../Dist/images/luxury-room-4.jpg" title="image-7" className="with-caption gallery image-link">
-                      <img className="img-responsive" src="../../Dist/images/images (1).jpg" alt="luxury-room-img" />
-                    </a>
-                  </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-pd-r luxury-img">
+                <img src="../../Dist/images/phantom-iv-1.jpg" className="img-responsive" alt="luxury-car" />
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-pd-l luxury-text">
+                <div className="luxury-car-text">
+                  <h2>Luxurious Car</h2>
+                  <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri.</p>
+                  <a href="car-detail-right-sidebar.html" className="btn btn-black">From $99/Day</a>
+                  <a href="car-detail-right-sidebar.html" className="btn btn-o-border">View Details</a>
                 </div>
               </div>{/* end columns */}
-              <div className="col-sm-12 col-md-12 col-lg-6 luxury-text luxury-room-text">
-                <h2>Luxurious Rooms</h2>
-                <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri.</p>
-                <a href="hotel-detail-right-sidebar.html" className="btn btn-black">From $99/Day</a>
-                <a href="hotel-detail-right-sidebar.html" className="btn btn-o-border">View Details</a>
-              </div>{/* end columns */}
             </div>{/* end row */}
           </div>{/* end container */}
-        </section>{/* end luxury-rooms */}
-        {/*=============== TESTIMONIALS ===============*/}
-        <Testimonials/>
-        {/* end testimonials */}
-        {/*============== HIGHLIGHTS =============*/}
-        <section id="highlights" className="highlights-2"> 
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div className="row">
-                  <div id="boxes">
-                    <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">  
-                      <div className="highlight-box">
-                        <div className="h-icon">
-                          <span><i className="fa fa-plane" /></span>
-                        </div>{/* end h-icon */}
-                        <div className="h-text">
-                          <span className="numbers">2496</span>
-                          <p>Outstanding Tours</p>
-                        </div>{/* end h-text */}                           
-                      </div>{/* end highlight-box */}                       
-                    </div>{/* end columns */}
-                    <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">  
-                      <div className="highlight-box">
-                        <div className="h-icon">
-                          <span><i className="fa fa-ship" /></span>
-                        </div>{/* end h-icon */}
-                        <div className="h-text cruise">
-                          <span className="numbers">1906</span>
-                          <p>Worldwide Cruise</p> 
-                        </div>{/* end h-text */}                           
-                      </div>{/* end highlight-box */}                       
-                    </div>{/* end columns */}
-                    <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">  
-                      <div className="highlight-box">
-                        <div className="h-icon">
-                          <span><i className="fa fa-taxi" /></span>
-                        </div>{/* end h-icon */}
-                        <div className="h-text taxi">
-                          <span className="numbers">2033</span>
-                          <p>Luxury Car Booking</p>   
-                        </div>{/* end h-text */}                           
-                      </div>{/* end highlight-box */}                       
-                    </div>{/* end columns */}
-                  </div>{/* end boxes */}
-                </div>{/* end row */}
-              </div>{/* end columns */}
-            </div>{/* end row */}
-          </div>{/* end container */}
-        </section>{/* end highlights */}
-        {/*================ PACKAGES ==============*/}
-        <section id="hotel-packages" className="section-padding"> 
+        </section>{/* end luxury-car */}
+        {/*================== PACKAGES ================*/}
+        <section id="car-packages" className="section-padding"> 
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">         	
-                <div className="page-heading">
+                <div className="page-heading white-heading">
                   <h2>Our Packages</h2>
                   <hr className="heading-line" />
                 </div>{/* end page-heading */}
@@ -706,14 +560,33 @@ render () {
               </div>{/* end columns */}
             </div>{/* end row */}
           </div>{/* end container */}
-        </section>{/* end hotel-packages */}
-        {/*========================= NEWSLETTER-1 ==========================*/}
-        <section id="newsletter-1" className="section-padding back-size newsletter"> 
+        </section>{/* end car-packages */}
+        {/*===================== MESSAGE BANNER ===================*/}
+        {/*<section id="message-banner" className="section-padding back-size"> 
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                        <h2>Lorem ipsum dolor sit amet aeque fabulas.</h2>  
+                        <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
+                      </div>
+                      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2 message-btn">
+                        <a href="#" className="btn btn-white">Read More</a>
+                      </div>{/* end columns 
+                    </div>{/* end row 
+                  </div>{/* end container 
+                </section>
+        end message-banner */}
+        {/*=============== TESTIMONIALS-2 ===============*/}
+       <Testimonials/>
+        {/* end testimonials */}
+        {/*============= NEWSLETTER-2 ============*/}
+        <section id="newsletter-2" className="newsletter"> 
           <div className="container">
             <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <h2>Subscribe Our Newsletter</h2>
-                <p>Subscibe to receive our interesting updates</p>	
+              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <h2>Subscribe Our Newsletter</h2>	
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                 <form>
                   <div className="form-group">
                     <div className="input-group">
@@ -725,7 +598,7 @@ render () {
               </div>{/* end columns */}
             </div>{/* end row */}
           </div>{/* end container */}
-        </section>{/* end newsletter-1 */}
+        </section>{/* end newsletter-2 */}
         {/*======================= FOOTER =======================*/}
         <section id="footer" className="ftr-heading-w ftr-heading-mgn-2">
           <div id="footer-top" className="banner-padding ftr-top-grey ftr-text-grey">
@@ -752,11 +625,17 @@ render () {
               </div>{/* end row */}
             </div>{/* end container */}
           </div>{/* end footer-top */}
-         <FooterBottom/>
+          <FooterBottom/>
         </section>{/* end footer */}
       </div>
-    );
+
+
+
+
+ 	)
   }
+
+
 }
 
-export default connect(state => state)(HotelHomepge);
+export default connect(state => state)(car);

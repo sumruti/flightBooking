@@ -15,6 +15,42 @@ class Login extends Component {
 	componentDidMount(){
     document.title = "Login"
   }
+  constructor(props) {
+    super(); // or super(props) ?
+    this.state = {
+
+      Username:'',
+      Pass:''
+    
+    }
+  }
+
+
+  Username(e){
+    this.setState({Username:e.target.value})
+
+  }
+
+  Pass(e){
+      this.setState({Pass:e.target.value})
+  }
+
+  submit(e){
+       if(!this.state.Username.trim()){
+          $('.validation_error h5').show();
+          $('.validation_error h5').text('Please enter Username'); 
+          setTimeout(function(){$('.validation_error h5').hide();},3000);
+          return false;
+        }
+
+       if(!this.state.Pass.trim()){
+          $('.validation_error h5').show();
+          $('.validation_error h5').text('Please enter password'); 
+          setTimeout(function(){$('.validation_error h5').hide();},3000);
+          return false;
+        } 
+  }
+
 
 render () {
 
@@ -34,19 +70,20 @@ render () {
                     </div>{/* end full-page-title */}
                     <div className="custom-form custom-form-fields">
                       <h3>Login</h3>
+                      <div className="validation_error"><h5></h5></div>
                       <form> 
                         <div className="form-group">
-                          <input type="text" className="form-control" placeholder="Username" required />
+                          <input type="text" className="form-control" placeholder="Username" onChange={(e)=>this.Username(e)} required />
                           <span><i className="fa fa-user" /></span>
                         </div>
                         <div className="form-group">
-                          <input type="password" className="form-control" placeholder="Password" required />
+                          <input type="password" className="form-control" placeholder="Password" onChange={(e)=>this.Pass(e)}  required />
                           <span><i className="fa fa-lock" /></span>
                         </div>
                         <div className="checkbox">
                           <label><input type="checkbox" /> Remember me</label>
                         </div>
-                        <button className="btn btn-orange btn-block">Login</button>
+                        <button type="button" className="btn btn-orange btn-block" onClick={(e)=>this.submit(e)}>Login</button>
                       </form>
                       <div className="other-links">
                         <p className="link-line">New Here ? <Link to="/register">Signup</Link></p>

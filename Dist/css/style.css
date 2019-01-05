@@ -1182,9 +1182,10 @@ h1,h2,h3,h4,h5,h6,.main-title a, .flight-info h3 .flight-destination,.blog-post-
 	overflow:hidden;
 }
 
-.main-img img{
-	width:100%;
-	transition:.4s;
+.main-img img {
+    width: 100%;
+    transition: .4s;
+    height: 240px;
 }
 
 .main-info .main-title a{
@@ -1722,7 +1723,9 @@ h1,h2,h3,h4,h5,h6,.main-title a, .flight-info h3 .flight-destination,.blog-post-
    ----------------------------------------------------- */
 
 .luxury-img img{
-	width:100%;
+    width: 100%;
+    height: 298px;
+    object-fit: cover;
 }
 
 .luxury-text h2{
@@ -1762,7 +1765,7 @@ h1,h2,h3,h4,h5,h6,.main-title a, .flight-info h3 .flight-destination,.blog-post-
 }
 
 .luxury-room-block img{
-	padding:1px;
+	padding:4px;
 }
 
 .luxury-room-block:nth-child(odd){
@@ -3611,7 +3614,7 @@ h1,h2,h3,h4,h5,h6,.main-title a, .flight-info h3 .flight-destination,.blog-post-
 }
 
 .custom-form form{
-	margin-top:40px;
+	margin-top:18px;
 }
 
 .custom-form .form-group{
@@ -5766,4 +5769,11 @@ h1,h2,h3,h4,h5,h6,.main-title a, .flight-info h3 .flight-destination,.blog-post-
 #contact-form-2 form .btn{
 	padding:7px 55px 8px;
 	margin-top:15px;
+}
+
+.validation_error > h5 {
+    text-align: center;
+    color: #ff0000;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
 }

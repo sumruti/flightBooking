@@ -1435,7 +1435,7 @@ p{
 /************** VIDEO-BANNER **************/
   
 #video-banner{
-	background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('../images/video-banner.jpg') 50% 37%;
+	background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('../images/australia_city_tower_banner.jpg') 50% 37%;
 	background-size:140%;
 }
 
@@ -1454,7 +1454,7 @@ p{
 /************* MESSAGE-BANNER *************/
 
 #message-banner{
-	background: linear-gradient(rgba(0, 0, 0,0.76),rgba(0, 0, 0,0.76)),url('../images/message-banner.jpg') 50% 66%;
+	background: linear-gradient(rgba(0, 0, 0,0.76),rgba(0, 0, 0,0.76)),url('../images/d7468e6eba382e278bd03054f0cef088.jpg') 50% 66%;
 	background-size:140%;
 	color:white;
 }
@@ -1528,7 +1528,7 @@ p{
    ----------------------------------------------------- */
 
 #testimonials{
-	background: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)),url('../images/testimonials.jpg') 50% 87%;
+	background: linear-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0,0.8)),url('../images/insurance-testimonials.jpg') 50% 87%;
 	background-size:145%;
 	background-attachment:fixed;
 	color:white;
@@ -4008,4 +4008,57 @@ p{
 	box-shadow:none;
 	background:#f2f2f2;
 	border:0px;
+}
+
+.fligt_show_img{
+	 background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) 0% 0% / cover, url(../../Dist/images/dpsak-exterior-0051-hor-feat.jpg) 50% 0%;
+    height: 100%;
+    width: 1258.75px;
+    margin-right: 0px;
+    float: left;
+    display: block;
+}
+.cruise_show_img{
+	 background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) 0% 0% / cover, url(../../Dist/images/22546cruis2-banner.jpg) 50% 0%;
+    height: 100%;
+    width: 1258.75px;
+    margin-right: 0px;
+    float: left;
+    display: block;
+}
+
+.hotel-banners1{
+	 background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) 0% 0% / cover, url(../../Dist/images/SHA_banner_1.png) 50% 0%;
+    height: 100%;
+    width: 1258.75px;
+    margin-right: 0px;
+    float: left;
+    display: block;
+}
+.hotel-banners2{
+
+	 background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) 0% 0% / cover, url(../../Dist/images/banners11.jpg) 50% 0%;
+    height: 100%;
+    width: 1258.75px;
+    margin-right: 0px;
+    float: left;
+    display: block;
+}.cruise_banner_img{
+
+	 background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) 0% 0% / cover, url(../../Dist/images/Outdoor-deck-party-2-.jpg) 50% 0%;
+    height: 100%;
+    width: 1258.75px;
+    margin-right: 0px;
+    float: left;
+    display: block;
+}
+
+.cruise_banner_img1{
+
+	 background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) 0% 0% / cover, url(../../Dist/images/cr2.jpg) 50% 0%;
+    height: 100%;
+    width: 1258.75px;
+    margin-right: 0px;
+    float: left;
+    display: block;
 }

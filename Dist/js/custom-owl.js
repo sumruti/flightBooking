@@ -1,7 +1,50 @@
-(function($) {
+  $(document).ready(function(){
+
+  $("#owl-hotel-offers").owlCarousel({
+    items : 3,
+    itemsCustom : false,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [991,2],
+    itemsTablet: [768,2],
+    itemsTabletSmall: [600,1],
+    itemsMobile : [479,1],
+    singleItem : false,
+    itemsScaleUp : false,
+  
+    //Autoplay
+    autoPlay : true,
+    stopOnHover : true,
+   
+    // Navigation
+    navigation : true,
+    navigationText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    rewindNav : true,
+    scrollPerPage : false,
+   
+    //Pagination
+    pagination : false,
+    paginationNumbers: false,
+   
+    // Responsive 
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,    
+  });
+
+    
 	
 	"use strict";
 	
+	// Cache Selectors
+	var hotelOffers		=$("#owl-hotel-offers"),
+		tourOffers		=$("#owl-tour-offers"),
+		cruiseOffers	=$("#owl-cruise-offers"),
+		carOffers		=$("#owl-car-offers"),
+		holidayTours	=$(".owl-holidays"),
+		testimonials	=$("#owl-testimonials"),
+		team			=$("#owl-team"),
+		companyLogo		=$("#owl-company-logo"),
+		attractions		=$("#owl-attractions");
 	
 	// Owl Hotel Offers
 	$("#owl-hotel-offers").owlCarousel({
@@ -37,7 +80,7 @@
 	
 	
 	// Owl Tour Offers
-	$("#owl-tour-offers").owlCarousel({
+	tourOffers.owlCarousel({
 		items : 3,
 		itemsCustom : false,
 		itemsDesktop : [1199,3],
@@ -70,7 +113,7 @@
 	
 	
 	// Owl Cruise Offers
-	$("#owl-cruise-offers").owlCarousel({
+	cruiseOffers.owlCarousel({
 		items : 2,
 		itemsCustom : false,
 		itemsDesktop : [1199,2],
@@ -103,7 +146,7 @@
 	
 	
 	// Owl Car Offers
-	$("#owl-car-offers").owlCarousel({
+	carOffers.owlCarousel({
 		items : 3,
 		itemsCustom : false,
 		itemsDesktop : [1199,2],
@@ -136,7 +179,7 @@
 	
 	
 	// Owl Holiday Tours
-	$(".owl-holidays").owlCarousel({
+	holidayTours.owlCarousel({
 		items : 3,
 		itemsCustom : false,
 		itemsDesktop : [1199,2],
@@ -168,8 +211,8 @@
 	});
 	
 	
-	// Owl $("#owl-testimonials")
-	$("#owl-testimonials").owlCarousel({
+	// Owl Testimonials
+	testimonials.owlCarousel({
 		items : 1,
 		itemsCustom : false,
 		itemsDesktop : [1199,1],
@@ -200,8 +243,8 @@
 	});
 	
 	
-	// Owl $("#owl-team")
-	$("#owl-team").owlCarousel({
+	// Owl Team
+	team.owlCarousel({
 		items : 4,
 		itemsCustom : false,
 		itemsDesktop : [1199,3],
@@ -233,7 +276,7 @@
 	
 	
 	// Owl Company
-	$("#owl-company-logo").owlCarousel({
+	companyLogo.owlCarousel({
 		items : 4,
 		itemsCustom : false,
 		itemsDesktop : [1199,3],
@@ -265,8 +308,8 @@
 	});
 	
 	
-	// Owl $("#owl-attractions")
-	$("#owl-attractions").owlCarousel({
+	// Owl Attractions
+	attractions.owlCarousel({
 		items : 2,
 		itemsCustom : false,
 		itemsDesktop : [1199,2],
@@ -297,4 +340,4 @@
 		responsiveBaseWidth: window,    
 	});
 
-})(jQuery);
+});
