@@ -9,7 +9,7 @@ import contact from './containers/contact/contact';
 import Login from './containers/Login/Login';
 import Register from './containers/Register/Register';
 import Cruise from './containers/Cruise/Cruise';
-import car from './containers/car/car';
+import car from './containers/Car/car';
 
 export default () => {
 	return (
