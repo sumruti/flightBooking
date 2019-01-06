@@ -10,6 +10,7 @@ class sidebar extends Component {
 
   componentDidMount(){
     document.title = "Sidebar"
+    
   }
 
 render () {
