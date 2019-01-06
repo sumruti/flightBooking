@@ -121,7 +121,7 @@ render () {
                 <div className=" meta">         
                   <div className="container">
                     <h2>Discover</h2>
-                    <h1>Australia</h1>
+                    <h1>World</h1>
                     <a href="#" className="btn btn-default">View More</a>
                   </div>{/* end container */}  
                 </div>{/* end meta */}
