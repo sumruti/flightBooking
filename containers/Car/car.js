@@ -512,8 +512,8 @@ render () {
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-pd-l luxury-text">
                 <div className="luxury-car-text">
                   <h2>Luxurious Car</h2>
-                  <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri.</p>
-                  <a href="car-detail-right-sidebar.html" className="btn btn-black">From $99/Day</a>
+{/*                  <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri.</p>
+                  */}                  <a href="car-detail-right-sidebar.html" className="btn btn-black">From $99/Day</a>
                   <a href="car-detail-right-sidebar.html" className="btn btn-o-border">View Details</a>
                 </div>
               </div>{/* end columns */}
