@@ -63,11 +63,11 @@ render () {
                         <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Car Address" />
                       </div>
                       <div className="form-group">
-                        <label htmlFor="exampleInputPassword1">Car Price</label>
-                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Car Price" />
+                        <label htmlFor="exampleInputPassword1"> Price</label>
+                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Price" />
                       </div>
                       <div className="form-group">
-                        <label htmlFor="exampleInputFile">Car Image</label>
+                        <label htmlFor="exampleInputFile"> Image</label>
                         <input type="file" id="exampleInputFile" />
                       </div>
                     
