@@ -401,9 +401,9 @@ render () {
                 <div className="hidden-xs hidden-sm col-md-6 no-pd-l">
                   <div className="welcome-message">
                     <h2>Find Your Perfect Plan</h2>
-                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper, imeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
-                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
-                    <a href="#" className="btn btn-w-border">Explore More</a>
+{/*                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper, imeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                                  <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
+                    */}      <a href="#" className="btn btn-w-border">Explore More</a>
                   </div>
                 </div>
               </div>{/* end row */}
