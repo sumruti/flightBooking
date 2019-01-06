@@ -12,7 +12,7 @@ import Testimonials from '../../components/layout/Testimonials';
 
 class car extends Component {
 
-	componentDidMount(){
+  componentDidMount(){
     document.title = "Car"
      $('.flexslider').flexslider({
       animation: "slide",
@@ -110,7 +110,7 @@ render () {
                                   <i className="fa fa-map-marker" />
                                 </div>
                               </div>{/* end columns */}
-                            </div>{/* end row */}								
+                            </div>{/* end row */}               
                           </div>{/* end columns */}
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="row">
@@ -128,7 +128,7 @@ render () {
                                   <i className="fa fa-calendar" />
                                 </div>
                               </div>{/* end columns */}
-                            </div>{/* end row */}								
+                            </div>{/* end row */}               
                           </div>{/* end columns */}
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="form-group right-icon">
@@ -167,7 +167,7 @@ render () {
                                   <i className="fa fa-calendar" />
                                 </div>
                               </div>{/* end columns */}
-                            </div>{/* end row */}								
+                            </div>{/* end row */}               
                           </div>{/* end columns */}
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="row">
@@ -298,7 +298,7 @@ render () {
                                   <i className="fa fa-map-marker" />
                                 </div>
                               </div>{/* end columns */}
-                            </div>{/* end row */}								
+                            </div>{/* end row */}               
                           </div>{/* end columns */}
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="row">
@@ -316,7 +316,7 @@ render () {
                                   <i className="fa fa-calendar" />
                                 </div>
                               </div>{/* end columns */}
-                            </div>{/* end row */}								
+                            </div>{/* end row */}               
                           </div>{/* end columns */}
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="form-group right-icon">
@@ -337,7 +337,7 @@ render () {
                       </form>
                     </div>{/* end cruises */}
                     <div id="cars" className="tab-pane in active">
-                      <form>					
+                      <form>          
                         <div className="row">
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div className="row">
@@ -385,7 +385,7 @@ render () {
                           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2 search-btn">
                             <button className="btn btn-orange">Search</button>
                           </div>{/* end columns */}
-                        </div>{/* end row */}					
+                        </div>{/* end row */}         
                       </form>
                     </div>{/* end cars */}
                   </div>{/* end tab-content */}
@@ -399,7 +399,7 @@ render () {
         <section id="car-offers" className="section-padding"> 
           <div className="container">
             <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">         	
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">           
                 <div className="page-heading">
                   <h2>Car Offers</h2>
                   <hr className="heading-line" />
@@ -423,7 +423,7 @@ render () {
                     <div className="main-block car-offer-block">
                       <div className="main-img car-offer-img">
                         <a href="car-detail-right-sidebar.html">
-                          <img src="../../Dist/images/FIAT-OFFERS-FIATLOYALTY.png.img.1000.png" className="img-responsive" alt="car-img" />
+                          <img src="../../Dist/images/range-rover-evoque-1-front-tracking.jpg" className="img-responsive" alt="car-img" />
                         </a>
                       </div>{/* end car-offer-img */}
                       <div className="car-offer-info">
@@ -438,7 +438,7 @@ render () {
                       <div className="main-img car-offer-img">
                         <a href="car-detail-right-sidebar.html">
 
-                          <img src="../../Dist/images/ZEA2018-95_1024x1024.jpg" className="img-responsive" alt="car-img" />
+                          <img src="../../Dist/images/2016_mercedes_benz_sl-wide.jpg" className="img-responsive" alt="car-img" />
                         </a>
                       </div>{/* end car-offer-img */}
                       <div className="car-offer-info">
@@ -469,7 +469,8 @@ render () {
               </div>{/* end columns */}
             </div>{/* end row */}
           </div>{/* end container */}
-        </section>{/* end car-offers */}
+        </section>
+        {/* end car-offers */}
         {/*========================= BEST FEATURES =======================*/}
         <section id="best-features" className="banner-padding lightgrey-features">
           <div className="container">
@@ -527,7 +528,7 @@ render () {
         <section id="car-packages" className="section-padding"> 
           <div className="container">
             <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">         	
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">           
                 <div className="page-heading white-heading">
                   <h2>Our Packages</h2>
                   <hr className="heading-line" />
@@ -622,7 +623,7 @@ render () {
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-                <h2>Subscribe Our Newsletter</h2>	
+                <h2>Subscribe Our Newsletter</h2> 
               </div>
               <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                 <form>
@@ -644,7 +645,7 @@ render () {
 
 
 
- 	)
+  )
   }
 
 

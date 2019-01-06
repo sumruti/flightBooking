@@ -1137,10 +1137,10 @@ render () {
                     <div className="main-block vehicle-block">
                       <div className="main-img vehicle-img">
                         <a href="#">
-                          <img src="../../Dist/images/ZEA2018-95_1024x1024.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../Dist/images/2016_mercedes_benz_sl-wide.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                         <div className="vehicle-time">
-                          <p><span><i className="fa fa-clock-o" /></span>22/h</p>
+                          <p><span><i className="fa fa-clock-o" /></span>26/h</p>
                         </div>{/* end vehicle-time */}
                       </div>{/* end vehicle-img */}
                       <div className="offer-price-2">
@@ -1167,10 +1167,10 @@ render () {
                     <div className="main-block vehicle-block">
                       <div className="main-img vehicle-img">
                         <a href="#">
-                          <img src="../../Dist/images/150714.jpg" className="img-responsive" alt="tour-img" />
+                          <img src="../../Dist/images/ferrari-458-spider-wallpapers-32094-3882908.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                         <div className="vehicle-time">
-                          <p><span><i className="fa fa-clock-o" /></span>22/h</p>
+                          <p><span><i className="fa fa-clock-o" /></span>15/h</p>
                         </div>{/* end vehicle-time */}
                       </div>{/* end vehicle-img */}
                       <div className="offer-price-2">
@@ -1197,7 +1197,7 @@ render () {
                     <div className="main-block vehicle-block">
                       <div className="main-img vehicle-img">
                         <a href="#">
-                          <img src="../../Dist/images/FIAT-OFFERS-FIATLOYALTY.png.img.1000.png" className="img-responsive" alt="tour-img" />
+                          <img src="../../Dist/images/range-rover-evoque-1-front-tracking.jpg" className="img-responsive" alt="tour-img" />
                         </a>
                         <div className="vehicle-time">
                           <p><span><i className="fa fa-clock-o" /></span>22/h</p>
