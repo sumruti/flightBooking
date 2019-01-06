@@ -5790,3 +5790,10 @@ span.logo > img {
     background-color: #fff!important;
      border-color: #fff!important; 
 }
+
+.navbar {
+
+     min-height: 0px!important; 
+     margin-bottom: 0px!important; 
+     border: 1px solid transparent; 
+}
