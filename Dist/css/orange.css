@@ -3188,7 +3188,7 @@ p{
 /********** COMING SOON PAGE ************/
 
 #coming-soon-text{
-	background:linear-gradient(rgba(0, 0, 0,0.56),rgba(0, 0, 0,0.56)),url('../images/coming-soon-page.jpg') bottom;
+	background:linear-gradient(rgba(0, 0, 0,0.56),rgba(0, 0, 0,0.56)) bottom;
 	background-size:145%;
 	color:white;
 }
