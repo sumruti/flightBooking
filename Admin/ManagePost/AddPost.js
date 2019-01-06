@@ -76,7 +76,7 @@ render () {
                       </div>
 
                       <div className="form-group">
-                        <label htmlFor="exampleInputFile">Post Description</label>
+                        <label htmlFor="exampleInputFile">Description</label>
                         <div className="box box-info">
                           <div className="box-header">
                             
@@ -91,7 +91,7 @@ render () {
                             </form>
                         </div>
                          <div className="form-group">
-                        <label htmlFor="exampleInputFile">Post Image</label>
+                        <label htmlFor="exampleInputFile">Image</label>
                         <input type="file" id="exampleInputFile" />
                       </div>
                         {/* /.box */}
