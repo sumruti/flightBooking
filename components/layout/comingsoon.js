@@ -29,7 +29,8 @@ render () {
             <div className="container">
               <div className="row">
                 <div className="col-sm-12">
-                  <h3 className="company-name"><span><i className="fa fa-plane" />Star</span>Travels</h3>
+                  <h3 className="company-name"><img src="../../Dist/images/logo.jpg" /></h3>
+
                   <h2>Coming Soon</h2>
                   <p>We are still working on it.</p>
                   <form>
