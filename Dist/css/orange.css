@@ -212,6 +212,10 @@ p{
 		border:0px;
 		margin:0px;
 	}
+	span.logo > img {
+	    height: 35px;
+	    margin: -15px 2px;
+	}
 }
 
 /* -----------------------------------------------------
@@ -417,6 +421,10 @@ p{
 }
 
 @media(min-width:768px){
+	span.logo > img {
+    height: 35px;
+    margin: -15px 2px;
+}
 
 	.main-navbar.affix {
 		box-shadow:0px 2px 5px rgba(0,0,0,0.2);
@@ -428,6 +436,10 @@ p{
 }
 
 @media(max-width:767px){
+	span.logo > img {
+    height: 35px;
+    margin: -15px 2px;
+}
 
 	.main-navbar{
 		background:white;
@@ -476,6 +488,10 @@ p{
 }
 
 @media(min-width:768px){
+	span.logo > img {
+    height: 35px;
+    margin: -15px 2px;
+}
 	
 	.main-navbar.navbar-transparent{
 		background:transparent;
@@ -596,6 +612,10 @@ p{
 }
 
 @media(max-width:767px){
+	span.logo > img {
+    height: 35px;
+    margin: -15px 2px;
+}
 	
 	.main-navbar.navbar-colored{
 		background:#faa61a;
@@ -640,6 +660,10 @@ p{
 }
 
 @media(max-width:767px){
+	span.logo > img {
+    height: 35px;
+    margin: -15px 2px;
+}
 	
 	.navbar-black{
 		background:rgba(0,0,0,0.4);
@@ -1166,6 +1190,10 @@ p{
 }
 
 @media(max-width:420px){
+	span.logo > img {
+    height: 35px;
+    margin: -15px 2px;
+}
 	
 	.flight-timing li:first-child{
 		border-right:0px;
