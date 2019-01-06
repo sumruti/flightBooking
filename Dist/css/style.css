@@ -2265,7 +2265,7 @@ h1,h2,h3,h4,h5,h6,.main-title a, .flight-info h3 .flight-destination,.blog-post-
 .h-pkg-price span{
 	display:block;
 	font-size:18px;
-	margin-top:-20px;
+	margin-top:3px;
 }
 
 .hotel-package .pkg-features{
