@@ -59,15 +59,15 @@ render () {
                         <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Hotel Name" />
                       </div>
                       <div className="form-group">
-                        <label htmlFor="exampleInputPassword1">Hotel Address</label>
-                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Hotel Address" />
+                        <label htmlFor="exampleInputPassword1">Address</label>
+                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Address" />
                       </div>
                       <div className="form-group">
-                        <label htmlFor="exampleInputPassword1">Hotel Price</label>
-                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Hotel Price" />
+                        <label htmlFor="exampleInputPassword1">Price</label>
+                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Price" />
                       </div>
                       <div className="form-group">
-                        <label htmlFor="exampleInputFile">Hotel Image</label>
+                        <label htmlFor="exampleInputFile">Image</label>
                         <input type="file" id="exampleInputFile" />
                       </div>
                     
