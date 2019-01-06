@@ -97,9 +97,9 @@ render () {
                 <div className="row">
                   <div className="col-sm-12">
                     <div className="full-page-title">
-                      <h3 className="company-name"><span><i className="fa fa-plane" />Star</span>Travels</h3>
-                      <p>Lorem ipsum dolor sit amet, conse adipiscing elit. Curabitur metus felis, venenatis eu ultricies vel, vehicula eu urna. Phasellus eget augue id est fringilla feugiat id a tellus. Sed hendrerit quam sed ante euismod posuere ultricies. </p>
-                    </div>{/* end full-page-title */}
+                      <h3 className="company-name"><img src="../../Dist/images/logo.jpg" /></h3>
+{/*                      <p>Lorem ipsum dolor sit amet, conse adipiscing elit. Curabitur metus felis, venenatis eu ultricies vel, vehicula eu urna. Phasellus eget augue id est fringilla feugiat id a tellus. Sed hendrerit quam sed ante euismod posuere ultricies. </p>
+                    */}                    </div>{/* end full-page-title */}
                     <div className="custom-form custom-form-fields">
                       <h3>Registration</h3>
                       <div className="validation_error"><h5></h5></div>
