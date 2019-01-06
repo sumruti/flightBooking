@@ -16,8 +16,12 @@ import car from './containers/Car/car';
 
 import Dashboard from './Admin/Dashboard/Dashboard';
 import ManageHotel from './Admin/ManageHotel/ManageHotel';
+import Addhotel from './Admin/ManageHotel/Addhotel';
 import ManageCar from './Admin/ManageCar/ManageCar';
 import ManagePost from './Admin/ManagePost/ManagePost';
+import AddPost from './Admin/ManagePost/AddPost';
+import addCar from './Admin/ManageCar/addCar';
+
 
 export default () => {
 	return (
@@ -32,6 +36,9 @@ export default () => {
 			  <Route path='/register' component={Register}/>
 			  <Route path='/Cruise' component={Cruise}/>
 			  <Route path='/car' component={car}/>
+			  <Route  path='/admin/AddPost' component={AddPost}/>
+              <Route  path='/admin/addCar' component={addCar}/>
+              <Route  path='/admin/Addhotel' component={Addhotel}/>
 
 			  {/*admin Routes*/}
               <Route  path='/admin/dashboard' component={Dashboard}/>

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
-import Sidebar from '../layout/sidebar';
-import Header from '../layout/header';
+import Sidebar from '../layout/Sidebar';
+import Header from '../layout/Header';
 import Footer from '../layout/Footer';
 
 
@@ -42,6 +42,15 @@ render () {
           </section>
           {/* Main content */}
           <section className="content">
+            <div className="row">
+              <div className="col-sm-5">
+              </div>
+              <div className="col-sm-5">
+              </div>
+              <div className="col-sm-2">
+                <button type="button" className="btn btn-block btn-primary btn-lg"><Link to="/admin/AddPost">Add Post</Link></button>
+              </div>
+            </div>
            
           </section>
         </div>

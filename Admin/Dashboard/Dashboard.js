@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
-import Sidebar from '../layout/sidebar';
-import Header from '../layout/header';
+import Sidebar from '../layout/Sidebar';
+import Header from '../layout/Header';
 import Footer from '../layout/Footer';
 
 
