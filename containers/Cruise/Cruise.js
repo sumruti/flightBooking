@@ -48,8 +48,8 @@ render () {
                 <div className="meta">         
                   <div className="container">
                     <h2>Dubai Boat Tour</h2>
-                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
-                    <span className="highlight-price">STARTING FROM 1200$ ONLY</span>
+{/*                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                    */}                    <span className="highlight-price">STARTING FROM 900$ ONLY</span>
                   </div>{/* end container */}  
                 </div>{/* end meta */}
               </li>{/* end item-1 */}
@@ -57,8 +57,8 @@ render () {
                 <div className=" meta">         
                   <div className="container">
                     <h2>Dubai Boat Tour</h2>
-                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
-                    <span className="highlight-price">STARTING FROM 1200$ ONLY</span>
+{/*                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
+                    */}                    <span className="highlight-price">STARTING FROM 1200$ ONLY</span>
                   </div>{/* end container */}  
                 </div>{/* end meta */}
               </li>{/* end item-2 */}
