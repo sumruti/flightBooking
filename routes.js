@@ -16,7 +16,7 @@ import car from './containers/Car/car';
 
 import Dashboard from './Admin/Dashboard/Dashboard';
 import ManageHotel from './Admin/ManageHotel/ManageHotel';
-import Addhotel from './Admin/ManageHotel/Addhotel';
+import Addhotel from './Admin/ManageHotel/AddHotel';
 import ManageCar from './Admin/ManageCar/ManageCar';
 import ManagePost from './Admin/ManagePost/ManagePost';
 import AddPost from './Admin/ManagePost/AddPost';
