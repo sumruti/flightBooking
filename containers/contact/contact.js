@@ -56,8 +56,8 @@ render () {
                 <div className="col-sm-12 col-md-5 no-pd-r">
                   <div className="custom-form contact-form">
                     <h3>Contact Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                    <form>
+{/*                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                    */}                    <form>
                       <div className="form-group">
                         <input type="text" className="form-control" placeholder="Name" required />
                         <span><i className="fa fa-user" /></span>
