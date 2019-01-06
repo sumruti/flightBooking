@@ -5785,3 +5785,8 @@ h1,h2,h3,h4,h5,h6,.main-title a, .flight-info h3 .flight-destination,.blog-post-
 span.logo > img {
     height: 60px;
 }
+
+.navbar-default {
+    background-color: #fff!important;
+     border-color: #fff!important; 
+}
