@@ -79,7 +79,20 @@
           <script src="/Dist/js/pages/dashboard2.js"></script>
           <!-- AdminLTE for demo purposes -->
           <script src="/Dist/js/demo.js"></script>
+          <script src="/Dist/bower_components/ckeditor/ckeditor.js"></script>
           <script src="/Dist/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+          <script>
+            $(function () {
+              // Replace the <textarea id="editor1"> with a CKEditor
+              // instance, using default configuration.
+              CKEDITOR.replace('editor1')
+              //bootstrap WYSIHTML5 - text editor
+              $('.textarea').wysihtml5()
+            })
+             $('#datepicker').datepicker({
+                autoclose: true
+              })
+          </script>
     </head>
     <body id="main-homepage" class="hold-transition skin-blue sidebar-mini">
 
