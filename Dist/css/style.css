@@ -5790,3 +5790,12 @@ span.logo > img {
     background-color: #fff!important;
      border-color: #fff!important; 
 }
+button.btn.btn-block.btn-primary.btn-lg > a {
+    color: #fff;
+}
+
+
+.btn-primary {
+    
+    width: auto!important;
+}
