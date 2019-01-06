@@ -15,6 +15,9 @@ import car from './containers/Car/car';
 /*Admin routes*/
 
 import Dashboard from './Admin/Dashboard/Dashboard';
+import ManageHotel from './Admin/ManageHotel/ManageHotel';
+import ManageCar from './Admin/ManageCar/ManageCar';
+import ManagePost from './Admin/ManagePost/ManagePost';
 
 export default () => {
 	return (
@@ -31,7 +34,10 @@ export default () => {
 			  <Route path='/car' component={car}/>
 
 			  {/*admin Routes*/}
-              <Route path='/admin/Dashboard' component={Dashboard}/>
+              <Route  path='/admin/dashboard' component={Dashboard}/>
+              <Route  path='/admin/managehotel' component={ManageHotel}/>
+              <Route  path='/admin/ManageCar' component={ManageCar}/>
+              <Route  path='/admin/managepost' component={ManagePost}/>
 
 			</Switch>
 		</BrowserRouter>
