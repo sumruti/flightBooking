@@ -1350,7 +1350,7 @@ render () {
                       <h4>Get</h4>
                       <h2><span>20%</span> off</h2>
                       <h4>on all hotels booking</h4>
-                      <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri.</p>
+                      <p></p>
                       <a href="#" className="btn btn-orange">Book Now</a>
                     </div>{/* end popup-ad-text */}
                   </div>{/* end columns */}
