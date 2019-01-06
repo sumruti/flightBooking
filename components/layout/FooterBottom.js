@@ -25,6 +25,14 @@ class FooterBottom extends Component {
                     <li><span><i className="fa fa-phone" /></span>Mob:+90 212 908 0600 Mob: +90 538 281 1130</li>
                     <li><span><i className="fa fa-envelope" /></span>info@ubrhugtur.com</li>
                   </ul>
+                   <ul className="list-unstyled">
+                    <li><span><i className="fa fa-map-marker" /></span> Fevzi Çakmak Mahallesi, Atisalani Cd. No:78, 34220 Esenler/Istanbul, Turkey (HQ) </li>
+                    <li><span><i className="fa fa-phone" /></span>Mob: +90 212 908 0600 Mob: +90 538 281 1130</li>
+                  </ul>
+                   <ul className="list-unstyled">
+                    <li><span><i className="fa fa-map-marker" /></span> 5352 N. Lincoln Ave Chicago, IL 60625, USA </li>
+                    <li><span><i className="fa fa-phone" /></span>Phone: 312-460-2460 Mob: +1-312-522-2480</li>
+                  </ul>
                 </div>{/* end columns */}
                 <div className="col-xs-12 col-sm-6 col-md-2 col-lg-2 footer-widget ftr-links">
                   <h3 className="footer-heading">COMPANY</h3>

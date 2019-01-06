@@ -479,28 +479,24 @@ render () {
                 <div className="b-feature-block">
                   <span><i className="fa fa-dollar" /></span>
                   <h3>Best Price Guarantee</h3>
-                  <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
                 </div>{/* end b-feature-block */}
               </div>{/* end columns */}
               <div className="col-sm-6 col-md-3">
                 <div className="b-feature-block">
                   <span><i className="fa fa-lock" /></span>
                   <h3>Safe and Secure</h3>
-                  <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
                 </div>{/* end b-feature-block */}
               </div>{/* end columns */}
               <div className="col-sm-6 col-md-3">
                 <div className="b-feature-block">
                   <span><i className="fa fa-thumbs-up" /></span>
                   <h3>Best Travel Agents</h3>
-                  <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
                 </div>{/* end b-feature-block */}
               </div>{/* end columns */}
               <div className="col-sm-6 col-md-3">
                 <div className="b-feature-block">
                   <span><i className="fa fa-bars" /></span>
                   <h3>Travel Guidelines</h3>
-                  <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
                 </div>{/* end b-feature-block */}
               </div>{/* end columns */}
             </div>{/* end row */}
