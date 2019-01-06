@@ -11,6 +11,11 @@ import Register from './containers/Register/Register';
 import Cruise from './containers/Cruise/Cruise';
 import car from './containers/Car/car';
 
+
+/*Admin routes*/
+
+import Dashboard from './Admin/Dashboard/Dashboard';
+
 export default () => {
 	return (
 		<BrowserRouter>
@@ -24,6 +29,10 @@ export default () => {
 			  <Route path='/register' component={Register}/>
 			  <Route path='/Cruise' component={Cruise}/>
 			  <Route path='/car' component={car}/>
+
+			  {/*admin Routes*/}
+              <Route path='/admin/Dashboard' component={Dashboard}/>
+
 			</Switch>
 		</BrowserRouter>
 	)
