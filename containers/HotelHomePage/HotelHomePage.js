@@ -93,10 +93,10 @@ render () {
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-pd-r">
                   <ul className="nav nav-tabs">
-                    <li className="active"><a href="#hotels" data-toggle="tab"><span><i className="fa fa-building" /></span><span className="st-text">Hotels</span></a></li>
-                    <li><a href="#tours" data-toggle="tab"><span><i className="fa fa-suitcase" /></span><span className="st-text">Tours</span></a></li>
-                    <li><a href="#cruise" data-toggle="tab"><span><i className="fa fa-ship" /></span><span className="st-text">Cruise</span></a></li>
-                    <li><a href="#cars" data-toggle="tab"><span><i className="fa fa-car" /></span><span className="st-text">Cars</span></a></li>
+                    <li className="active"><a href={null} data-toggle="tab"><span><i className="fa fa-building" /></span><span className="st-text">Hotels</span></a></li>
+                    <li><a href={null} data-toggle="tab"><span><i className="fa fa-suitcase" /></span><span className="st-text">Tours</span></a></li>
+                    <li><a href={null} data-toggle="tab"><span><i className="fa fa-ship" /></span><span className="st-text">Cruise</span></a></li>
+                    <li><a href={null} data-toggle="tab"><span><i className="fa fa-car" /></span><span className="st-text">Cars</span></a></li>
                   </ul>
                   <div className="tab-content">
                     <div id="flights" className="tab-pane">
@@ -403,7 +403,7 @@ render () {
                     <h2>Find Your Perfect Plan</h2>
 {/*                    <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper, imeam mnesarchum at, pro an eros perpetua ullamcorper.</p>
                                   <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
-                    */}      <a href="#" className="btn btn-w-border">Explore More</a>
+                    */}      <a href={null} className="btn btn-w-border">Explore More</a>
                   </div>
                 </div>
               </div>{/* end row */}
@@ -456,7 +456,7 @@ render () {
                   <div className="item">
                     <div className="main-block hotel-block">
                       <div className="main-img">
-                        <a href="#">
+                        <a href={null}>
                           <img src="../../Dist/images/123294690.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
@@ -474,10 +474,10 @@ render () {
                       </div>{/* end offer-img */}
                       <div className="main-info hotel-info">
                         <div className="arrow">
-                          <a href="#"><span><i className="fa fa-angle-right" /></span></a>
+                          <a href={null}><span><i className="fa fa-angle-right" /></span></a>
                         </div>{/* end arrow */}
                         <div className="main-title hotel-title">
-                          <a href="#">Herta Berlin Hotel</a>
+                          <a href={null}>Herta Berlin Hotel</a>
                           <p>From: Scotland</p>
                         </div>{/* end hotel-title */}
                       </div>{/* end hotel-info */}
@@ -486,7 +486,7 @@ render () {
                   <div className="item">
                     <div className="main-block hotel-block">
                       <div className="main-img">
-                        <a href="#">
+                        <a href={null}>
                           <img src="../../Dist/images/3.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
@@ -504,7 +504,7 @@ render () {
                       </div>{/* end offer-img */}
                       <div className="main-info hotel-info">
                         <div className="arrow">
-                          <a href="#"><span><i className="fa fa-angle-right" /></span></a>
+                          <a href={null}><span><i className="fa fa-angle-right" /></span></a>
                         </div>{/* end arrow */}
                         <div className="main-title hotel-title">
                           <a href="#">Roosevelt Hotel</a>
@@ -516,7 +516,7 @@ render () {
                   <div className="item">
                     <div className="main-block hotel-block">
                       <div className="main-img">
-                        <a href="#">
+                        <a href={null}>
                           <img src="../../Dist/images/swimming-pool.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
@@ -534,10 +534,10 @@ render () {
                       </div>{/* end offer-img */}
                       <div className="main-info hotel-info">
                         <div className="arrow">
-                          <a href="#"><span><i className="fa fa-angle-right" /></span></a>
+                          <a href={null}><span><i className="fa fa-angle-right" /></span></a>
                         </div>{/* end arrow */}
                         <div className="main-title hotel-title">
-                          <a href="#">Hotel Fort De</a>
+                          <a href={null}>Hotel Fort De</a>
                           <p>From: Austria</p>
                         </div>{/* end hotel-title */}
                       </div>{/* end hotel-info */}
@@ -546,7 +546,7 @@ render () {
                   <div className="item">
                     <div className="main-block hotel-block">
                       <div className="main-img">
-                        <a href="#">
+                        <a href={null}>
                           <img src="../../Dist/images/1.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">1
