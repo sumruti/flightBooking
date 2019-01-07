@@ -93,7 +93,7 @@ render () {
         <div>
 
         {/*======== SEARCH-OVERLAY =========*/} 
-         <Search/>
+         {/*<Search/>*/}
         {/* end SEARCH overlay */}
 
         {/*============= TOP-BAR ===========*/}
@@ -111,7 +111,7 @@ render () {
               <li className="item-1 fligt_show_img" >
                 <div className=" meta">         
                   <div className="container">
-                    <h2>Discover</h2>
+                    <h2>Discover The </h2>
                     <h1>World</h1>
                     <a href="#" className="btn btn-default">View More</a>
                   </div>{/* end container */}  
@@ -120,7 +120,7 @@ render () {
               <li className="item-2 cruise_show_img" >
                 <div className=" meta">         
                   <div className="container">
-                    <h2>Discover</h2>
+                    <h2>Discover The</h2>
                     <h1>World</h1>
                     <a href="#" className="btn btn-default">View More</a>
                   </div>{/* end container */}  

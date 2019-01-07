@@ -25,7 +25,7 @@ render () {
                 <div className="carousel slide" data-ride="carousel" id="quote-carousel">
                   <div className="carousel-inner text-center">
                     <div className="item active">
-                      <blockquote>This is the second trip that I we have booked through Star Travel and just like the first the second was flawless. The minutest of details were taken care of and we were able to enjoy a guided tour without the hustle of being in a large group. The best part about the team is that they are available 24*7 for any queries that you might have. Siddhanth from the team personally ensured that the tour was customised to our requirements and was patient with multiple iterations that we made</blockquote>
+                      <blockquote>This is the second trip that I we have booked through UBRHUGTUR and just like the first the second was flawless. The minutest of details were taken care of and we were able to enjoy a guided tour without the hustle of being in a large group. The best part about the team is that they are available 24*7 for any queries that you might have. Siddhanth from the team personally ensured that the tour was customised to our requirements and was patient with multiple iterations that we made</blockquote>
                       <div className="rating">
                         <span><i className="fa fa-star orange" /></span>
                         <span><i className="fa fa-star orange" /></span>
@@ -36,7 +36,7 @@ render () {
                       <small>Emma</small>
                     </div>{/* end item */}
                     <div className="item">
-                      <blockquote>I have called many travel companies for the same but I got the best response from your company. I am very happy with the way your employees are working and handling all guests. It really gives a very good impression about StarTravel</blockquote>
+                      <blockquote>I have called many travel companies for the same but I got the best response from your company. I am very happy with the way your employees are working and handling all guests. It really gives a very good impression about UBRHUGTUR</blockquote>
                       <div className="rating">
                         <span><i className="fa fa-star orange" /></span>
                         <span><i className="fa fa-star orange" /></span>
@@ -47,7 +47,7 @@ render () {
                       <small>Ethan</small>
                     </div>{/* end item */}
                     <div className="item">
-                      <blockquote>We had a great time on our trip to Europe in May. Can't wait for the next trip already :-) I highly recommend visiting Amsterdam & Brugges as these are stunning destinations. I want to thank Mr Srijan from Star Travel for helping us plan the trip</blockquote>
+                      <blockquote>We had a great time on our trip to Europe in May. Can't wait for the next trip already :-) I highly recommend visiting Amsterdam & Brugges as these are stunning destinations. I want to thank Mr Srijan from UBRHUGTUR for helping us plan the trip</blockquote>
                       <div className="rating">
                         <span><i className="fa fa-star orange" /></span>
                         <span><i className="fa fa-star orange" /></span>

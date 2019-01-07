@@ -75,7 +75,7 @@ class FooterBottom extends Component {
                 <div className="container">
                   <div className="row">
                     <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="copyright">
-                      <p>© 2017 <a href="#">StarTravel</a>. All rights reserved.</p>
+                      <p>© 2019 <a href="#">UBRHUGTUR</a>. All rights reserved.</p>
                     </div>{/* end columns */}
                     <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="terms">
                       <ul className="list-unstyled list-inline">

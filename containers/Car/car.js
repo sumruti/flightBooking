@@ -60,7 +60,7 @@ render () {
 
     <div>
      {/*======== SEARCH-OVERLAY =========*/}       
-      <Search/>
+     {/* <Search/>*/}
     {/* end overlay */}
         {/*============= TOP-BAR ===========*/}
         <TopBar/>
@@ -85,10 +85,10 @@ render () {
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-pd-r">
                   <ul className="nav nav-tabs">
                     {/*<li><a href="#flights" data-toggle="tab"><span><i className="fa fa-plane" /></span><span className="st-text">Flights</span></a></li>*/}
-                    <li><a href="#hotels" data-toggle="tab"><span><i className="fa fa-building" /></span><span className="st-text">Hotels</span></a></li>
-                    <li><a href="#tours" data-toggle="tab"><span><i className="fa fa-suitcase" /></span><span className="st-text">Tours</span></a></li>
-                    <li><a href="#cruise" data-toggle="tab"><span><i className="fa fa-ship" /></span><span className="st-text">Cruise</span></a></li>
-                    <li className="active"><a href="#cars" data-toggle="tab"><span><i className="fa fa-car" /></span><span className="st-text">Cars</span></a></li>
+                    <li><a href={null} data-toggle="tab"><span><i className="fa fa-building" /></span><span className="st-text">Hotels</span></a></li>
+                    <li><a href={null} data-toggle="tab"><span><i className="fa fa-suitcase" /></span><span className="st-text">Tours</span></a></li>
+                    <li><a href={null} data-toggle="tab"><span><i className="fa fa-ship" /></span><span className="st-text">Cruise</span></a></li>
+                    <li className="active"><a href={null} data-toggle="tab"><span><i className="fa fa-car" /></span><span className="st-text">Cars</span></a></li>
                   </ul>
                   <div className="tab-content">
                     <div id="flights" className="tab-pane">
@@ -408,13 +408,13 @@ render () {
                   <div className="item">
                     <div className="main-block car-offer-block">
                       <div className="main-img car-offer-img">
-                        <a href="car-detail-right-sidebar.html">
+                        <a href={null}>
                           <img src="../../Dist/images/2017-Audi-Q5-2L-TFSI-S-Line-Black-SUV-grey-press-image-1200x800-(1).webp" className="img-responsive" alt="car-img" />
                         </a>
                       </div>{/* end car-offer-img */}
                       <div className="car-offer-info">
                         <ul className="list-unstyled">
-                          <li><a href="car-detail-right-sidebar.html"><h4>Audi</h4></a><span className="car-offer-price">$68.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
+                          <li><a href={null}><h4>Audi</h4></a><span className="car-offer-price">$68.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
                         </ul>
                       </div>{/* end car-offer-info */}
                     </div>{/* end car-offer-block */}
@@ -422,13 +422,13 @@ render () {
                   <div className="item">
                     <div className="main-block car-offer-block">
                       <div className="main-img car-offer-img">
-                        <a href="car-detail-right-sidebar.html">
+                        <a href={null}>
                           <img src="../../Dist/images/range-rover-evoque-1-front-tracking.jpg" className="img-responsive" alt="car-img" />
                         </a>
                       </div>{/* end car-offer-img */}
                       <div className="car-offer-info">
                         <ul className="list-unstyled">
-                          <li><a href="car-detail-right-sidebar.html"><h4>Range Rover</h4></a><span className="car-offer-price">$95.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
+                          <li><a href={null}><h4>Range Rover</h4></a><span className="car-offer-price">$95.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
                         </ul>
                       </div>{/* end car-offer-info */}
                     </div>{/* end car-offer-block */}
@@ -436,14 +436,14 @@ render () {
                   <div className="item">
                     <div className="main-block car-offer-block">
                       <div className="main-img car-offer-img">
-                        <a href="car-detail-right-sidebar.html">
+                        <a href={null}>
 
                           <img src="../../Dist/images/2016_mercedes_benz_sl-wide.jpg" className="img-responsive" alt="car-img" />
                         </a>
                       </div>{/* end car-offer-img */}
                       <div className="car-offer-info">
                         <ul className="list-unstyled">
-                          <li><a href="car-detail-right-sidebar.html"><h4>Mercedese</h4></a><span className="car-offer-price">$78.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
+                          <li><a href={null}><h4>Mercedese</h4></a><span className="car-offer-price">$78.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
                         </ul>
                       </div>{/* end car-offer-info */}
                     </div>{/* end car-offer-block */}
@@ -451,20 +451,20 @@ render () {
                   <div className="item">
                     <div className="main-block car-offer-block">
                       <div className="main-img car-offer-img">
-                        <a href="car-detail-right-sidebar.html">
+                        <a href={null}>
                           <img src="../../Dist/images/images1111.jpg" className="img-responsive" alt="car-img" />
                         </a>
                       </div>{/* end car-offer-img */}
                       <div className="car-offer-info">
                         <ul className="list-unstyled">
-                          <li><a href="car-detail-right-sidebar.html"><h4>Audi</h4></a><span className="car-offer-price">$68.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
+                          <li><a href={null}><h4>Audi</h4></a><span className="car-offer-price">$68.00<span className="limit"><span className="divider">|</span>Per Day</span></span></li>
                         </ul>
                       </div>{/* end car-offer-info */}
                     </div>{/* end car-offer-block */}
                   </div>{/* end item */}
                 </div>{/* end owl-car-offers */}
                 <div className="view-all text-center">
-                  <a href="car-grid-right-sidebar.html" className="btn btn-orange">View All</a>
+                  <a href={null} className="btn btn-orange">View All</a>
                 </div>{/* end view-all */}
               </div>{/* end columns */}
             </div>{/* end row */}
@@ -513,8 +513,8 @@ render () {
                 <div className="luxury-car-text">
                   <h2>Luxurious Car</h2>
 {/*                  <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis. Est atqui timeam mnesarchum at, pro an eros perpetua ullamcorper Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri.</p>
-                  */}                  <a href="car-detail-right-sidebar.html" className="btn btn-black">From $99/Day</a>
-                  <a href="car-detail-right-sidebar.html" className="btn btn-o-border">View Details</a>
+                  */}                  <a href={null} className="btn btn-black">From $99/Day</a>
+                  <a href={null} className="btn btn-o-border">View Details</a>
                 </div>
               </div>{/* end columns */}
             </div>{/* end row */}
@@ -605,7 +605,7 @@ render () {
                         <p>Lorem ipsum dolor sit amet, ad duo fugit aeque fabulas, in lucilius prodesset pri. Veniam delectus ei vis.</p>
                       </div>
                       <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2 message-btn">
-                        <a href="#" className="btn btn-white">Read More</a>
+                        <a href={null} className="btn btn-white">Read More</a>
                       </div>{/* end columns 
                     </div>{/* end row 
                   </div>{/* end container 

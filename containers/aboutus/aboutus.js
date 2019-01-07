@@ -87,7 +87,7 @@ render () {
            <div>
         {/*====== LOADER =====*/}
         {/*======== SEARCH-OVERLAY =========*/}       
-        <Search/>
+       {/* <Search/>*/}
         {/* end overlay */}
         {/*============= TOP-BAR ===========*/}
         <TopBar/>

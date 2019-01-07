@@ -20,8 +20,8 @@ class TopBar extends Component {
                         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                           <div id="info">
                             <ul className="list-unstyled list-inline">
-                              <li><span><i className="fa fa-map-marker" /></span>29 Land St, Lorem City, CA</li>
-                              <li><span><i className="fa fa-phone" /></span>+00 123 4567</li>
+                              <li><span><i className="fa fa-map-marker" /></span>5352 N. Lincoln Ave Chicago, IL 60625, USA </li>
+                              <li><span><i className="fa fa-phone" /></span> +90 212 908 0600</li>
                             </ul>
                           </div>{/* end info */}
                         </div>{/* end columns */}
