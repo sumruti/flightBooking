@@ -120,7 +120,7 @@ render () {
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-5 col-lg-4">
                   <div id="abt-cnt-2-img">
-                    <img src="../../Dist/images/banner2australia.jpg" className="img-responsive" alt="about-img" />
+                    <img src="../../Dist/images/logo.jpg" className="img-responsive" alt="about-img" />
                   </div>{/* end abt-cnt-2-img */}
                 </div>{/* end columns */}
                 <div className="col-xs-12 col-sm-12 col-md-7 col-lg-8">
