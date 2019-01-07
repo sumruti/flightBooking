@@ -125,7 +125,7 @@ render () {
                 </div>{/* end columns */}
                 <div className="col-xs-12 col-sm-12 col-md-7 col-lg-8">
                   <div id="abt-cnt-2-text">
-                    <h2>Welcome to<span><span><i className="fa fa-plane" /> UBRHUGTUR</span></span></h2>
+                    <h2>Welcome to<span><span><i className="fa fa-plane" /> UBRHUG</span>TUR</span></h2>
                     <p>UBRHUGTUR is a travel company that specializes in creating unique adventures to destinations around the world. Our clients include corporate clients planning incentive travel, honeymooners and couples planning a destination wedding and discerning adults looking for the ultimate travel experience.
                          Our connections to the world’s top travel suppliers, including hotels, resorts and cruise lines, gives us privileged access to many perks not directly available online. Our goal is to choreograph the most spectacular journey you will ever take.</p>
                     <div className="row">
