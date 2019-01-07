@@ -165,6 +165,99 @@ render () {
             </div>{/* end container */}
           </div>{/* end video-banner */}
        
+          <div id="why-us" className="innerpage-section-padding">
+            <div className="container">
+              <div className="row">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div className="page-heading innerpage-heading">
+                    <h2>Why Choose Us</h2>
+                    <hr className="heading-line" />
+                  </div>{/* end page-heading */}
+                  <div className="row">
+                    
+                    <div className="col-xs-12 col-sm-12" id="company-logos">
+                      <div className="row">
+                        <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                          <h3>We Have Investor Relations.</h3>
+                          <p>Don't take our words for granted. See what all this hipe about.</p>
+                        </div>{/* end columns */}
+                        <div className="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                          <div className="row">
+                            <div className="owl-carousel owl-theme" id="owl-company-logo">
+                              <div className="col-xs-12">
+                                <div className="item">
+                                  <div className="company-img">
+                                    <img src="../../Dist/images/about-banner-1.png" alt="logo" />
+                                  </div>{/* company-img */}
+                                </div>{/* item */}
+                              </div>{/* end columns */}
+                              <div className="col-xs-12">                       
+                                <div className="item">
+                                  <div className="company-img">
+                                    <img src="../../Dist/images/MED-LOGO-1.jpg" alt="logo" />
+                                  </div>{/* company-img */}
+                                </div>{/* item */}
+                              </div>{/* end columns */}
+                              <div className="col-xs-12">
+                                <div className="item">
+                                  <div className="company-img">
+                                    <img src="../../Dist/images/about-banner-3.png" alt="logo" />
+                                  </div>{/* company-img */}
+                                </div>{/* item */}
+                              </div>{/* end columns */}
+                              <div className="col-xs-12">
+                                <div className="item">
+                                  <div className="company-img">
+                                    <img src="../../Dist/images/about-banner-6.png" alt="logo" />
+                                  </div>{/* company-img */}
+                                </div>{/* item */}
+                              </div>{/* end columns */}
+                              <div className="col-xs-12">
+                                <div className="item">
+                                  <div className="company-img">
+                                    <img src="../../Dist/images/about-banner-4.png" alt="logo" />
+                                  </div>{/* company-img */}
+                                </div>{/* item */}
+                              </div>
+                              <div className="col-xs-12">
+                                <div className="item">
+                                  <div className="company-img">
+                                    <img src="../../Dist/images/about-banner-5.png" alt="logo" />
+                                  </div>{/* company-img */}
+                                </div>{/* item */}
+                              </div>
+                              <div className="col-xs-12">
+                                <div className="item">
+                                  <div className="company-img">
+                                    <img src="../../Dist/images/about-banner-2.png" alt="logo" />
+                                  </div>{/* company-img */}
+                                </div>{/* item */}
+                              </div>
+                              <div className="col-xs-12">
+                                <div className="item">
+                                  <div className="company-img">
+                                    <img src="../../Dist/images/about-banner-1 (1).png" alt="logo" />
+                                  </div>{/* company-img */}
+                                </div>{/* item */}
+                              </div>
+                              <div className="col-xs-12">
+                                <div className="item">
+                                  <div className="company-img">
+                                    <img src="../../Dist/images/150x150bb-1.jpg" alt="logo" />
+                                  </div>{/* company-img */}
+                                </div>{/* item */}
+                              </div>
+                             {/* end columns */}
+                            </div>{/* owl-company */}
+                          </div>{/* end row */}
+                        </div>{/* end columns */}
+                      </div>{/* end row */}
+                    </div>{/* end columns */}
+                  </div>{/* end row */}
+                </div>{/* end columns */}
+              </div>{/* end row */}
+            </div>{/* end container */}
+          </div>
 
          {/* end why-us */}
 
