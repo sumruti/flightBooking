@@ -240,7 +240,59 @@ render () {
                       <p>Marketing</p>
                     </div>{/* end member-name */}
                   </div>{/* end member-block */}
-                </div>{/* end item */}
+                  </div> 
+
+                  <div className="item">
+                  <div className="member-block">
+                    <div className="member-img">
+                      <img src="../../Dist/images/Abdulraheem.png" className="img-responsive img-circle" alt="member-img" />                                 
+                      <ul className="list-unstyled list-inline contact-links">
+                        <li><a href="#"><span><i className="fa fa-facebook-square" /></span></a></li>
+                        <li><a href="#"><span><i className="fa fa-twitter-square" /></span></a></li>
+                        <li><a href="#"><span><i className="fa fa-linkedin-square" /></span></a></li>
+                      </ul>       
+                    </div>{/* end member-img */}
+                    <div className="member-name">
+                      <h3>Abdulraheem A.</h3>
+                      <p>Staff supervisor</p>
+                    </div>{/* end member-name */}
+                  </div>{/* end member-block */}
+                  </div>
+
+                   <div className="item">
+                  <div className="member-block">
+                    <div className="member-img">
+                      <img src="../../Dist/images/Abdulhakeem.png" className="img-responsive img-circle" alt="member-img" />                                 
+                      <ul className="list-unstyled list-inline contact-links">
+                        <li><a href="#"><span><i className="fa fa-facebook-square" /></span></a></li>
+                        <li><a href="#"><span><i className="fa fa-twitter-square" /></span></a></li>
+                        <li><a href="#"><span><i className="fa fa-linkedin-square" /></span></a></li>
+                      </ul>       
+                    </div>{/* end member-img */}
+                    <div className="member-name">
+                      <h3>Hakeem Ahmad</h3>
+                      <p>Marketing</p>
+                    </div>{/* end member-name */}
+                  </div>{/* end member-block */}
+                  </div>
+
+                 <div className="item">
+                  <div className="member-block">
+                    <div className="member-img">
+                      <img src="../../Dist/images/team-img-2.jpg" className="img-responsive img-circle" alt="member-img" />                                 
+                      <ul className="list-unstyled list-inline contact-links">
+                        <li><a href="#"><span><i className="fa fa-facebook-square" /></span></a></li>
+                        <li><a href="#"><span><i className="fa fa-twitter-square" /></span></a></li>
+                        <li><a href="#"><span><i className="fa fa-linkedin-square" /></span></a></li>
+                      </ul>       
+                    </div>{/* end member-img */}
+                    <div className="member-name">
+                      <h3>Erkan Kurt</h3>
+                      <p>Public relations director</p>
+                    </div>{/* end member-name */}
+                  </div>{/* end member-block */}
+                </div>
+              {/* end item */}
               
                {/* end item */}
               </div>{/* end owl-team */}
