@@ -29,7 +29,7 @@ render () {
             <div className="container">
               <div className="row">
                 <div className="col-sm-12">
-                  <h3 className="company-name"><span><img src="../../Dist/images/logo.jpg" className="aboutLogo" alt="about-img" />UBRHUG</span>TUR</h3>
+                  <h3 className="company-name"><span>UBRHUG</span>TUR</h3>
                   <h2>Coming Soon</h2>
                   <p>We are still working on it.</p>
                   <form>
