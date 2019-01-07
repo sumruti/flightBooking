@@ -90,7 +90,7 @@ render () {
                         <a className="simple-link" href="#">Forgot Password ?</a>
                       </div>{/* end other-links */}
                     </div>{/* end custom-form */}
-                    <p className="full-page-copyright">© 2017 StarTravel. All rights reserved.</p>
+                    <p className="full-page-copyright">© 2017 UBRHUGTUR. All rights reserved.</p>
                   </div>{/* end columns */}
                 </div>{/* end row */}
               </div>{/* end container */}

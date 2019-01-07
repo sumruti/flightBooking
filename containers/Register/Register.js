@@ -127,7 +127,7 @@ render () {
                         <p className="link-line">Already Have An Account ? <Link to="/login">Login Here</Link></p>
                       </div>{/* end other-links */}
                     </div>{/* end custom-form */}
-                    <p className="full-page-copyright">© 2017 StarTravel. All rights reserved.</p>
+                    <p className="full-page-copyright">© 2017 UBRHUGTUR. All rights reserved.</p>
                   </div>{/* end columns */}
                 </div>{/* end row */}
               </div>{/* end container */}
