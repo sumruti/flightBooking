@@ -5799,3 +5799,7 @@ button.btn.btn-block.btn-primary.btn-lg > a {
     
     width: auto!important;
 }
+
+.navbar {
+	margin-bottom: 0px!important; 
+}
