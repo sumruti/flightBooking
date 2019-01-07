@@ -324,6 +324,22 @@ render () {
                     </div>{/* end member-name */}
                   </div>{/* end member-block */}
                   </div>
+               <div className="item">
+                  <div className="member-block">
+                    <div className="member-img">
+                      <img src="../../Dist/images/team-img-5.jpg" className="img-responsive img-circle" alt="member-img" />                                 
+                      <ul className="list-unstyled list-inline contact-links">
+                        <li><a href="#"><span><i className="fa fa-facebook-square" /></span></a></li>
+                        <li><a href="#"><span><i className="fa fa-twitter-square" /></span></a></li>
+                        <li><a href="#"><span><i className="fa fa-linkedin-square" /></span></a></li>
+                      </ul>       
+                    </div>{/* end member-img */}
+                    <div className="member-name">
+                      <h3>Hamza Keriti</h3>
+                      <p>Digital Marketing</p>
+                    </div>{/* end member-name */}
+                  </div>{/* end member-block */}
+                  </div>
 
                  <div className="item">
                   <div className="member-block">
