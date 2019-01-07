@@ -29,7 +29,7 @@ render () {
             <div className="container">
               <div className="row">
                 <div className="col-sm-12">
-                  <h3 className="company-name"><span><i className="fa fa-plane" />UBRHUG</span>TUR</h3>
+                  <h3 className="company-name"><span><img src="../../Dist/images/logo.jpg" className="aboutLogo" alt="about-img" />UBRHUG</span>TUR</h3>
                   <h2>Coming Soon</h2>
                   <p>We are still working on it.</p>
                   <form>
@@ -40,12 +40,12 @@ render () {
                       </div>
                     </div>
                   </form>
-                  <ul className="list-inline list-unstyled timer">
-                    <li><span className="digit">24</span>days</li>
-                    <li><span className="digit">23</span>hours</li>
-                    <li><span className="digit">59</span>minutes</li>
-                    <li><span className="digit">45</span>seconds</li>
-                  </ul>
+                  {/*<ul className="list-inline list-unstyled timer">
+                                      <li><span className="digit">24</span>days</li>
+                                      <li><span className="digit">23</span>hours</li>
+                                      <li><span className="digit">59</span>minutes</li>
+                                      <li><span className="digit">45</span>seconds</li>
+                                    </ul>*/}
                 </div>{/* end columns */}
               </div>{/* end row */}
             </div>{/* end container */}
