@@ -213,7 +213,7 @@ p{
 		margin:0px;
 	}
 	span.logo > img {
-	    height: 79px;
+	    height: 70px;
 	    margin: -15px 2px;
 	}
 }
@@ -422,7 +422,7 @@ p{
 
 @media(min-width:768px){
 	span.logo > img {
-    height: 79px;
+    height: 70px;
     margin: -15px 2px;
 }
 
@@ -437,7 +437,7 @@ p{
 
 @media(max-width:767px){
 	span.logo > img {
-    height: 79px;
+    height: 70px;
     margin: -15px 2px;
 }
 
@@ -489,7 +489,7 @@ p{
 
 @media(min-width:768px){
 	span.logo > img {
-    height: 79px;
+    height: 70px;
     margin: -15px 2px;
 }
 	
@@ -613,7 +613,7 @@ p{
 
 @media(max-width:767px){
 	span.logo > img {
-    height: 79px;
+    height: 70px;
     margin: -15px 2px;
 }
 	
@@ -661,7 +661,7 @@ p{
 
 @media(max-width:767px){
 	span.logo > img {
-    height: 79px;
+    height: 70px;
     margin: -15px 2px;
 }
 	
@@ -1191,7 +1191,7 @@ p{
 
 @media(max-width:420px){
 	span.logo > img {
-    height: 79px;
+    height: 70px;
     margin: -15px 2px;
 }
 	
