@@ -613,8 +613,8 @@ render () {
               <div className="col-sm-12 col-md-12 col-lg-6 luxury-text luxury-room-text">
                 <h2>Luxurious Rooms</h2>
                 <p>Well-appointed comfortable & spacious room with an area of 320 sq. ft. Luxury comes with a complete range of upscale amenities including, Wireless Internet access (Chargeable), Complimentary Mineral Water Bottle, Flat-screen TV, Cable connection, Direct Dialing, Sofa bed, Mini Bar, Tea/Coffee Maker, Express Laundry Service, In-room Safe, Bathrobe, Complimentary Newspaper, Parallel phone line in bathroom, Bath Tub, Bedside lamp, Full length Mirror, Hair Dryer, Safety Lockers, Shower Cubicle, Table lamp, Temp Control, Wooden flooring etc. Child Policy One child below the age of 6 years can stay in parents room without an extra bed on complimentary basis</p>
-                <a href="hotel-detail-right-sidebar.html" className="btn btn-black">From $99/Day</a>
-                <a href="hotel-detail-right-sidebar.html" className="btn btn-o-border">View Details</a>
+                <a href={null} className="btn btn-black">From $99/Day</a>
+                <a href={null} className="btn btn-o-border">View Details</a>
               </div>{/* end columns */}
             </div>{/* end row */}
           </div>{/* end container */}
