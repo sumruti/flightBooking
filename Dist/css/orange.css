@@ -1494,7 +1494,7 @@ p{
 /************* SEARCH-BANNER *************/
 
 #search-banner{
-	background: linear-gradient(rgba(250, 166, 26,0.8),rgba(250, 166, 26,0.8)),url('../images/message-banner.jpg') 50% 66%;
+	background: linear-gradient(rgba(250, 166, 26,0.8),rgba(250, 166, 26,0.8)) 50% 66%;
 	background-size:140%;
 	color:white;
 }
@@ -1964,7 +1964,7 @@ p{
 }
 
 .page-cover::before{
-	background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 46%, rgba(0, 0, 0,0) 64%,rgba(0, 0, 0,0) 100%);	
+	background:linear-gradient( to right, rgba(0, 0, 0,1) 0%,rgba(0, 0, 0,1) 26%, rgba(0, 0, 0,0.6) 100%, rgba(0, 0, 0,0) 64%,rgba(0, 0, 0,0) 100%);	
 }
 
 .page-cover .breadcrumb{
@@ -2129,7 +2129,7 @@ p{
 /************* HOLIDAYS PAGE ************/
 
 #cover-holiday{
-	background:url('../images/cover-holiday.jpg') 50% 30%;
+	background:url('../images/Missoula-July-Best-Places-To-Travel-Featured.jpg') 50% 30%;
 	background-size:cover;
 }
 
@@ -2304,14 +2304,14 @@ p{
 /********** COVER SERVICE PAGES **********/
 
 #cover-services{
-	background:url('../images/cover-services.jpg') 50% 50%;
+	background:url('../images/Services.jpeg') 50% 50%;
 	background-size:cover;
 }
 
 /********** COVER TRAVEL GUIDE **********/
 
 #cover-travel-guide{
-	background:url('../images/cover-travel-guide.jpg') 50% 70%;
+	/*background:url('../images/cover-travel-guide.jpg') 50% 70%;*/
 	background-size:cover;
 }
 

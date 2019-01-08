@@ -10,6 +10,12 @@ import Login from './containers/Login/Login';
 import Register from './containers/Register/Register';
 import Cruise from './containers/Cruise/Cruise';
 import car from './containers/Car/car';
+import TravelGuide from './containers/TravelGuide/TravelGuide';
+import UserProfile from './containers/UserProfile/UserProfile';
+import PaymentSuccess from './containers/PaymentSuccess/PaymentSuccess';
+import Services from './containers/Services/Services';
+import Holidays from './containers/Holidays/Holidays';
+import Travelinsurance from './containers/Travelinsurance/Travelinsurance';
 
 
 /*Admin routes*/
@@ -36,6 +42,14 @@ export default () => {
 			  <Route path='/register' component={Register}/>
 			  <Route path='/Cruise' component={Cruise}/>
 			  <Route path='/car' component={car}/>
+			  <Route path='/TravelGuide' component={TravelGuide}/>
+			  <Route path='/UserProfile' component={UserProfile}/>
+			  <Route path='/PaymentSuccess' component={PaymentSuccess}/>
+			  <Route path='/Services' component={Services}/>
+			  <Route path='/Holidays' component={Holidays}/>
+			  <Route path='/Travelinsurance' component={Travelinsurance}/>
+
+			  
 			  <Route  path='/admin/AddPost' component={AddPost}/>
               <Route  path='/admin/addCar' component={addCar}/>
               <Route  path='/admin/Addhotel' component={Addhotel}/>
