@@ -291,7 +291,7 @@ class NavBar extends Component {
                   </nav>
                   <div className="sidenav-content">
                     <div id="mySidenav" className="sidenav">
-                      <h2 id="web-name"><span><i className="fa fa-plane" /></span>UBRHUGTUR</h2>
+                      <h2 id="web-name"><span></span>UBRHUGTUR</h2>
                       <div id="main-menu">
                         <div className="closebtn">
                           <button className="btn btn-default" id="closebtn" onClick={(e)=>this.sideBarClose(e)}>×</button>
