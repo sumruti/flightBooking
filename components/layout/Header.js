@@ -96,7 +96,7 @@ class NavBar extends Component {
                           <li className="dropdown"><Link to="/aboutus" className="dropdown-toggle" >About Us<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
                           <li className="dropdown"><Link to="/contact" className="dropdown-toggle" >contact Us<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
                           
-                            <li className="dropdown active" id="asd"><Link to="/" className="dropdown-toggle" >Pages<span><i className="fa fa-angle-down" /></span></Link>
+                            <li className="dropdown" id="asd"><Link to="/" className="dropdown-toggle" >Pages<span><i className="fa fa-angle-down" /></span></Link>
                             <ul className="dropdown-menu">
                                <li className="active"><a href="/TravelGuide">Travel Guide</a></li>
                                <li><Link to="/UserProfile">User Profile</Link></li>
