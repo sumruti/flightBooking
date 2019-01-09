@@ -62,7 +62,7 @@ render () {
                     <div className="box-body">
                       <div className="form-group">
                         <label htmlFor="exampleInputEmail1">Post Title </label>
-                        <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Post Title" />
+                        <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Post Title" />
                       </div>
                       <div className="form-group">
                         <label>Date:</label>

@@ -56,15 +56,15 @@ render () {
                     <div className="box-body">
                       <div className="form-group">
                         <label htmlFor="exampleInputEmail1">Hotel Name </label>
-                        <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Hotel Name" />
+                        <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Hotel Name" />
                       </div>
                       <div className="form-group">
                         <label htmlFor="exampleInputPassword1">Address</label>
-                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Address" />
+                        <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Address" />
                       </div>
                       <div className="form-group">
                         <label htmlFor="exampleInputPassword1">Price</label>
-                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Price" />
+                        <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Price" />
                       </div>
                       <div className="form-group">
                         <label htmlFor="exampleInputFile">Image</label>
