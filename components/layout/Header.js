@@ -31,15 +31,9 @@ class NavBar extends Component {
       controlNav: false,
     });
 
-     // $(".dropdown").on("click", function(){.
-        $('li.dropdown').click(function(){
-        alert('yes')
-        // $(".dropdown").removeClass("active");
-       // $(this).addClass("active");
-      });
+   
 
     $('#asd').on('click', function(){
-      alert('yj')
          $(".dropdown").removeClass("active");
          $(this).addClass("active");
     });
