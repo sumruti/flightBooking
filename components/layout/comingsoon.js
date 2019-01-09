@@ -40,12 +40,12 @@ render () {
                       </div>
                     </div>
                   </form>
-                  {/*<ul className="list-inline list-unstyled timer">
+                  <ul className="list-inline list-unstyled timer">
                                       <li><span className="digit">24</span>days</li>
                                       <li><span className="digit">23</span>hours</li>
                                       <li><span className="digit">59</span>minutes</li>
                                       <li><span className="digit">45</span>seconds</li>
-                                    </ul>*/}
+                                    </ul>
                 </div>{/* end columns */}
               </div>{/* end row */}
             </div>{/* end container */}
