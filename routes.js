@@ -20,7 +20,7 @@ import Travelinsurance from './containers/Travelinsurance/Travelinsurance';
 
 import HotelDetail from './containers/HotelHomePage/HotelDetail';
 import carDetails from './containers/Car/carDetails';
-import cruiseDetail from './containers/Cruise/cruiseDetail';
+import cruiseDetail from './containers/Cruise/CruiseDetail';
 
 
 /*Admin routes*/
