@@ -31,13 +31,20 @@ class NavBar extends Component {
       controlNav: false,
     });
 
-   
+     // $(".dropdown").on("click", function(){.
+        $('li.dropdown').click(function(){
+        alert('yes')
+        // $(".dropdown").removeClass("active");
+       // $(this).addClass("active");
+      });
 
-    $('#asd').on('click', function(){
-         $(".dropdown").removeClass("active");
-         $(this).addClass("active");
-    });
 
+/*$(document).ready(function(){
+  $('.nav li').click(function(){
+    $('li a').removeClass("active");
+    $(this).addClass("active");
+});
+});*/
         return (
              <div>
         
@@ -56,7 +63,7 @@ class NavBar extends Component {
                       </div>{/* end navbar-header */}
                       <div className="collapse navbar-collapse" id="myNavbar1">
                         <ul className="nav navbar-nav navbar-right navbar-search-link">
-                          <li className="dropdown active" id="asd"><Link to="/" className="dropdown-toggle" >Home<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
+                          <li className="dropdown active" id="asd"><Link to="/" className="dropdown-toggle " >Home<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
                             {/*<ul className="dropdown-menu">
                                                    <li className="active"><a href="#">Main Homepage</a></li>
                                                    <li><a href="flight-homepage.html">Flight Homepage</a></li>
@@ -82,15 +89,15 @@ class NavBar extends Component {
                                                     <li><a href="flight-offers.html">Hot Offers</a></li>
                                                   </ul> */}    
                         
-                          <li className="dropdown"><Link to="/hotels" className="dropdown-toggle" >Hotel<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
-                          <li className="dropdown"><Link to="/cruise" className="dropdown-toggle" >Cruise<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
-                          <li className="dropdown"><Link to="/car" className="dropdown-toggle" >Car<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
-                          <li className="dropdown"><Link to="/flights" className="dropdown-toggle" >Flight<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
+                          <li className="dropdown"  id="asd"><Link to="/hotels" className="dropdown-toggle" >Hotel<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
+                          <li className="dropdown"  id="asd"><Link to="/cruise" className="dropdown-toggle" >Cruise<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
+                          <li className="dropdown"  id="asd"><Link to="/car" className="dropdown-toggle" >Car<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
+                          <li className="dropdown"  id="asd"><Link to="/flights" className="dropdown-toggle" >Flight<span>{/*<i className="fa fa-angle-down" />*/}</span></Link>
                              </li>
-                          <li className="dropdown"><Link to="/aboutus" className="dropdown-toggle" >About Us<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
-                          <li className="dropdown"><Link to="/contact" className="dropdown-toggle" >contact Us<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
+                          <li className="dropdown"  id="asd"><Link to="/aboutus" className="dropdown-toggle" >About Us<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
+                          <li className="dropdown"  id="asd"><Link to="/contact" className="dropdown-toggle" >contact Us<span>{/*<i className="fa fa-angle-down" />*/}</span></Link></li>
                           
-                            <li className="dropdown" id="asd"><Link to="/" className="dropdown-toggle" >Pages<span><i className="fa fa-angle-down" /></span></Link>
+                            <li className="dropdown " id="asd"><Link to="/" className="dropdown-toggle" >Pages<span><i className="fa fa-angle-down" /></span></Link>
                             <ul className="dropdown-menu">
                                <li className="active"><a href="/TravelGuide">Travel Guide</a></li>
                                <li><Link to="/UserProfile">User Profile</Link></li>

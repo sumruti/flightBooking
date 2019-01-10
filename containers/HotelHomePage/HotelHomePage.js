@@ -456,7 +456,7 @@ render () {
                   <div className="item">
                     <div className="main-block hotel-block">
                       <div className="main-img">
-                        <a href={null}>
+                        <a href='/HotelDetail'>
                           <img src="../../Dist/images/123294690.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
@@ -486,7 +486,7 @@ render () {
                   <div className="item">
                     <div className="main-block hotel-block">
                       <div className="main-img">
-                        <a href={null}>
+                        <a href='/HotelDetail'>
                           <img src="../../Dist/images/3.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
@@ -516,7 +516,7 @@ render () {
                   <div className="item">
                     <div className="main-block hotel-block">
                       <div className="main-img">
-                        <a href={null}>
+                        <a href='/HotelDetail'>
                           <img src="../../Dist/images/swimming-pool.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">
@@ -546,7 +546,7 @@ render () {
                   <div className="item">
                     <div className="main-block hotel-block">
                       <div className="main-img">
-                        <a href={null}>
+                        <a href='/HotelDetail'>
                           <img src="../../Dist/images/1.jpg" className="img-responsive" alt="hotel-img" />
                         </a>
                         <div className="main-mask">1

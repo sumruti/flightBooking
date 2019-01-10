@@ -16,6 +16,8 @@ class aboutus extends Component {
     componentDidMount(){
      document.title = "About us"
 
+     
+
      $("#owl-team").owlCarousel({
       items : 4,
       itemsCustom : false,

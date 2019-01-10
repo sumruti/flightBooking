@@ -142,7 +142,7 @@ render () {
                       <div className="row">
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
-                            <a href="#">
+                            <a href='/cruiseDetail'>
                               <img src="../../Dist/images/The-Top-Five-Australia-and-Asian-Cruise-Holidays.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
@@ -174,7 +174,7 @@ render () {
                       <div className="row">
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
-                            <a href="#">
+                            <a href='/cruiseDetail'>
                               <img src="../../Dist/images/thumb-1920-542931.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
@@ -206,7 +206,7 @@ render () {
                       <div className="row">
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
-                            <a href="#">
+                            <a href='/cruiseDetail'>
                               <img src="../../Dist/images/Outdoor-deck-party-2-.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
@@ -238,7 +238,7 @@ render () {
                       <div className="row">
                         <div className="col-sm-12 col-md-6 col-md-push-6 no-pd-l">
                           <div className="main-img cruise-img">
-                            <a href="#">
+                            <a href='/cruiseDetail'>
                               <img src="../../Dist/images/bateaux.jpg" className="img-responsive" alt="cruise-img" />
                               <div className="cruise-mask">
                                 <p>7 Nights, 6 Days</p>
@@ -332,7 +332,7 @@ render () {
                 <h3 className="cruise-tour">Bodrum Alacati To Istanbul Tour</h3>
                 <p className="cruise-offer-dur">7 Nights, 6 Days</p>
                 <p className="cruise-offer-price">From $1,441</p>
-                <a href="cruise-detail-right-sidebar.html" className="btn btn-black">Click to View</a>
+                <a href="#" className="btn btn-black">Click to View</a>
               </div>{/* end columns */}
             </div>{/* end row */}
           </div>{/* end container */}

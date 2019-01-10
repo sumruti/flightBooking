@@ -23,6 +23,13 @@ class Home extends Component {
       controlNav: false,
     });
 
+    $(document).ready(function(){
+        $('.nav li a').click(function(){
+        $('li a').removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+
     $("#owl-hotel-offers").owlCarousel({
       items : 3,
       itemsCustom : false,

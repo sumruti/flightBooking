@@ -408,7 +408,7 @@ render () {
                   <div className="item">
                     <div className="main-block car-offer-block">
                       <div className="main-img car-offer-img">
-                        <a href={null}>
+                        <a href='/carDetails'>
                           <img src="../../Dist/images/2017-Audi-Q5-2L-TFSI-S-Line-Black-SUV-grey-press-image-1200x800-(1).webp" className="img-responsive" alt="car-img" />
                         </a>
                       </div>{/* end car-offer-img */}
@@ -422,7 +422,7 @@ render () {
                   <div className="item">
                     <div className="main-block car-offer-block">
                       <div className="main-img car-offer-img">
-                        <a href={null}>
+                        <a href='/carDetails'>
                           <img src="../../Dist/images/range-rover-evoque-1-front-tracking.jpg" className="img-responsive" alt="car-img" />
                         </a>
                       </div>{/* end car-offer-img */}
@@ -436,7 +436,7 @@ render () {
                   <div className="item">
                     <div className="main-block car-offer-block">
                       <div className="main-img car-offer-img">
-                        <a href={null}>
+                        <a href='/carDetails'>
 
                           <img src="../../Dist/images/2016_mercedes_benz_sl-wide.jpg" className="img-responsive" alt="car-img" />
                         </a>
@@ -451,7 +451,7 @@ render () {
                   <div className="item">
                     <div className="main-block car-offer-block">
                       <div className="main-img car-offer-img">
-                        <a href={null}>
+                        <a href='/carDetails'>
                           <img src="../../Dist/images/images1111.jpg" className="img-responsive" alt="car-img" />
                         </a>
                       </div>{/* end car-offer-img */}
