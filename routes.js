@@ -18,6 +18,11 @@ import Holidays from './containers/Holidays/Holidays';
 import Travelinsurance from './containers/Travelinsurance/Travelinsurance';
 
 
+import HotelDetail from './containers/HotelHomePage/HotelDetail';
+import carDetails from './containers/Car/carDetails';
+import cruiseDetail from './containers/Cruise/cruiseDetail';
+
+
 /*Admin routes*/
 
 import Dashboard from './Admin/Dashboard/Dashboard';
@@ -48,6 +53,9 @@ export default () => {
 			  <Route path='/Services' component={Services}/>
 			  <Route path='/Holidays' component={Holidays}/>
 			  <Route path='/Travelinsurance' component={Travelinsurance}/>
+			  <Route path='/HotelDetail' component={HotelDetail}/>
+			  <Route path='/carDetails' component={carDetails}/>
+			  <Route path='/cruiseDetail' component={cruiseDetail}/>
 
 			  
 			  <Route  path='/admin/AddPost' component={AddPost}/>
